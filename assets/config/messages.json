@@ -1,0 +1,13 @@
+{
+  "coffeeFortune": {
+    "message": "Kahve falınız çıkmasına 14 dakika kaldı!",
+    "countdown": 840
+  },
+  "premiumMessage": {
+    "message": "Haftalık Premium Kampanyası için son 2 saat!",
+    "countdown": 7200
+  },
+  "generalMessage": {
+    "message": "Yeni fal için 10 jeton ödemeniz gerekmektedir."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "596212807387",
+    "project_id": "fal-app-f63dc",
+    "storage_bucket": "fal-app-f63dc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596212807387:android:c6dbe803bebbe7934bbefe",
+        "android_client_info": {
+          "package_name": "com.falci.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596212807387-7uvj11nh8g6id53e3jhfnjj31o0iicuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.falci.app",
+            "certificate_hash": "65f1b157daf1f5341404cba056732f0e85f1686e"
+          }
+        },
+        {
+          "client_id": "596212807387-kf4rsab9a4mn3l6qd3sm38h84n73o9b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6OjPwCLBibJV5WPofMO-S2WZOctOacJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596212807387-kf4rsab9a4mn3l6qd3sm38h84n73o9b2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "596212807387-d6vjsf2fd008j3e45le1dl38a4604uhh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

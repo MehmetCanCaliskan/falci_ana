@@ -1,0 +1,13 @@
+ECHO is on.
+.dart_tool/
+.packages
+build/
+.idea/
+.vscode/
+android/.gradle/
+*.iml
+*.lock
+*.log
+.env
+*.keystore
+*.jks
