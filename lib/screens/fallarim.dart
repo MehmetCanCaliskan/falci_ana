@@ -32,10 +32,10 @@ class _FallarimPageState extends State<FallarimPage> {
   }
 
   bool _falAktifMi(String tarihStr) {
-    final tarih = DateTime.parse(tarihStr);
-    final fark = DateTime.now().difference(tarih).inMinutes;
-    return fark >= 15;
-  }
+  final tarih = DateTime.parse(tarihStr);
+  final fark = DateTime.now().difference(tarih).inSeconds;
+  return fark >= 30;
+}
 
   String _formatTarih(String iso) {
     final date = DateTime.parse(iso);

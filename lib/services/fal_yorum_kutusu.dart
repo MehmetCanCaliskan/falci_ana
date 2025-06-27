@@ -5,7 +5,7 @@ class FalYorumKutusu {
   static Map<String, List<String>> yorumlar = {};
 
   static Future<void> yukle() async {
-    final data = await rootBundle.loadString('assets/config/fal_yorumlari_72.json');
+    final data = await rootBundle.loadString('assets/config/fallar.json');
     yorumlar = Map<String, List<String>>.from(
       json.decode(data).map((key, value) => MapEntry(key, List<String>.from(value))),
     );

@@ -1,10 +1,12 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import '../coin_service.dart'; // CoinService'yi import ettik
+import '../coin_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../services/fal_yorum_kutusu.dart';
 import 'dart:convert';
+import '../services/fal_servisi.dart';
+import '../home.dart'; // <- EKLENDİ: HomePage yönlendirmesi için
 
 class CoffeeFortuneUploadScreen extends StatefulWidget {
   const CoffeeFortuneUploadScreen({super.key});
@@ -15,10 +17,9 @@ class CoffeeFortuneUploadScreen extends StatefulWidget {
 }
 
 class _CoffeeFortuneUploadScreenState extends State<CoffeeFortuneUploadScreen> {
-  List<File> _images = [];  // Yüklenen fotoğrafların listesi
+  List<File> _images = [];
   final ImagePicker _picker = ImagePicker();
 
-  // Fotoğraf seçmek için kamera veya galeriden seçme
   Future<void> _pickImage() async {
     final XFile? pickedFile = await showModalBottomSheet<XFile>(
       context: context,
@@ -31,16 +32,18 @@ class _CoffeeFortuneUploadScreenState extends State<CoffeeFortuneUploadScreen> {
               leading: const Icon(Icons.camera_alt),
               title: const Text('Kamera ile Çek'),
               onTap: () async {
-                final XFile? file = await _picker.pickImage(source: ImageSource.camera);
-                Navigator.pop(context, file);  // Kameradan fotoğrafı alıyoruz ve ekrana geri dönüyoruz
+                final XFile? file =
+                    await _picker.pickImage(source: ImageSource.camera);
+                Navigator.pop(context, file);
               },
             ),
             ListTile(
               leading: const Icon(Icons.image),
               title: const Text('Galeriden Seç'),
               onTap: () async {
-                final XFile? file = await _picker.pickImage(source: ImageSource.gallery);
-                Navigator.pop(context, file);  // Galeriden fotoğrafı alıyoruz ve ekrana geri dönüyoruz
+                final XFile? file =
+                    await _picker.pickImage(source: ImageSource.gallery);
+                Navigator.pop(context, file);
               },
             ),
           ],
@@ -51,31 +54,32 @@ class _CoffeeFortuneUploadScreenState extends State<CoffeeFortuneUploadScreen> {
     if (pickedFile != null) {
       setState(() {
         if (_images.length < 3) {
-          _images.add(File(pickedFile.path));  // Fotoğrafı listeye ekliyoruz
+          _images.add(File(pickedFile.path));
         }
       });
     }
   }
 
   Future<void> _falaBakVeKaydet() async {
-  final prefs = await SharedPreferences.getInstance();
+    final prefs = await SharedPreferences.getInstance();
 
-  final isDurumu = prefs.getString('is_durumu') ?? 'İş arıyor';
-  final iliskiDurumu = prefs.getString('iliski_durumu') ?? 'İlişkisi Yok';
+    final isDurumu = prefs.getString('is_durumu') ?? 'İş arıyor';
+    final iliskiDurumu = prefs.getString('iliski_durumu') ?? 'İlişkisi Yok';
+    final kullaniciAdi = prefs.getString('user_name') ?? 'Sevgili Kullanıcı';
 
-  final yorum = FalYorumKutusu.falAlProfilIle(isDurumu, iliskiDurumu);
-  final now = DateTime.now();
+    final yorum = await FalService.getFalMetni(
+      isDurumu: isDurumu,
+      iliskiDurumu: iliskiDurumu,
+      kullaniciAdi: kullaniciAdi,
+    );
 
-  final yeniFal = {
-    "tur": "Kahve Falı",
-    "tarih": now.toIso8601String(),
-    "yorum": yorum,
-  };
-
-  final eskiFallar = prefs.getStringList('fallar') ?? [];
-  eskiFallar.add(json.encode(yeniFal));
-  await prefs.setStringList('fallar', eskiFallar);
-}
+    if (yorum != null) {
+      await FalService.kaydetFal(
+        falTuru: 'Kahve Falı',
+        metin: yorum,
+      );
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -85,18 +89,17 @@ class _CoffeeFortuneUploadScreenState extends State<CoffeeFortuneUploadScreen> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            // Fotoğraf kutuları (3 kare şeklinde köşeleri yuvarlatılmış)
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: List.generate(3, (index) {
                 return GestureDetector(
-                  onTap: _pickImage,  // Fotoğraf kutusuna tıklayınca fotoğraf yüklenir
+                  onTap: _pickImage,
                   child: Container(
                     height: 100,
                     width: 100,
                     decoration: BoxDecoration(
                       color: Colors.grey[300],
-                      borderRadius: BorderRadius.circular(12),  // Yuvarlatılmış köşeler
+                      borderRadius: BorderRadius.circular(12),
                     ),
                     child: _images.length > index
                         ? ClipRRect(
@@ -116,34 +119,37 @@ class _CoffeeFortuneUploadScreenState extends State<CoffeeFortuneUploadScreen> {
               }),
             ),
             const SizedBox(height: 20),
-            // "Fala Bak" butonunu alt kısma yerleştirme
             Align(
               alignment: Alignment.bottomCenter,
               child: SizedBox(
-                width: MediaQuery.of(context).size.width * 0.9, // %90 genişlik
+                width: MediaQuery.of(context).size.width * 0.9,
                 child: ElevatedButton(
                   onPressed: () async {
                     if (_images.isNotEmpty) {
                       bool success = await CoinService().deductCoins(10);
                       if (success) {
-                        await _falaBakVeKaydet(); // ← JSON'dan fal al ve kaydet
+                        await _falaBakVeKaydet();
 
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('Falınız hazırlanıyor...')),
+                        if (!mounted) return; // Widget hâlâ hayattaysa
+
+                        Navigator.of(context).pushAndRemoveUntil(
+                          MaterialPageRoute(builder: (_) => const HomePage()),
+                          (Route<dynamic> route) => false,
                         );
-
-                        Navigator.pop(context);
                       } else {
+                        if (!mounted) return;
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text('Yeterli jetonunuz yok!')),
                         );
                       }
                     } else {
+                      if (!mounted) return;
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(content: Text('Lütfen en az bir fotoğraf yükleyin')),
                       );
                     }
                   },
+
                   child: const Text('Fala Bak'),
                 ),
               ),

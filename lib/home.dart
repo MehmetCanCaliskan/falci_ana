@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
   Future<void> _loadMessages() async {
     setState(() {
       _infoMessage = "Kahve falınız çıkmasına 14 dakika kaldı!";
-      _countdown = 14 * 60;
+      _countdown = 30; // Geçici olarak 30 saniyeye indirdik
     });
     _startCountdown();
   }
