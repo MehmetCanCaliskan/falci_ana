@@ -1,10 +1,11 @@
 import 'dart:async'; // Timer için
 import 'package:flutter/material.dart';
 import 'coin_service.dart';
-import 'screens/horoscope_screen.dart';
+import 'screens/burclar.dart';
 import 'screens/watch_ad_page.dart';
 import 'screens/play_game_page.dart'; // import et
-import 'screens/coffee_fortune_upload_screen.dart'; // Kahve Falı ekranını import ettik
+import 'screens/kahve_fali.dart'; // Kahve Falı ekranını import ettik
+import 'screens/fallarim.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -36,16 +37,14 @@ class _HomePageState extends State<HomePage> {
     _checkDailyBonus();
   }
 
-  // Bilgilendirme mesajını yüklemek
   Future<void> _loadMessages() async {
     setState(() {
-      _infoMessage = "Kahve falınız çıkmasına 14 dakika kaldı!";  // Bilgilendirme mesajı
-      _countdown = 14 * 60;  // 14 dakika (840 saniye)
+      _infoMessage = "Kahve falınız çıkmasına 14 dakika kaldı!";
+      _countdown = 14 * 60;
     });
     _startCountdown();
   }
 
-  // Geri sayımı başlatma
   void _startCountdown() {
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (_countdown > 0) {
@@ -54,14 +53,13 @@ class _HomePageState extends State<HomePage> {
         });
       } else {
         setState(() {
-          _infoMessage = '';  // Mesajı sıfırlıyoruz
+          _infoMessage = '';
         });
         _timer.cancel();
       }
     });
   }
 
-  // Geri sayımı formatlayarak gösterme
   String get _formattedTime {
     int minutes = _countdown ~/ 60;
     int seconds = _countdown % 60;
@@ -83,37 +81,34 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> _onFortuneSelected(String title) async {
-  if (title == 'Kahve Falı') {
-    final currentCoins = await CoinService().getCoins();
+    if (title == 'Kahve Falı') {
+      final currentCoins = await CoinService().getCoins();
 
-    if (currentCoins >= 10) {
-      await Navigator.push(
-        context,
-        MaterialPageRoute(builder: (_) => const CoffeeFortuneUploadScreen()),
-      );
-      final updatedCoins = await CoinService().getCoins();
-      setState(() {
-        _coins = updatedCoins;
-      });
-    } else {
-      final result = await Navigator.push(
-        context,
-        MaterialPageRoute(builder: (_) => const WatchAdPage()),
-      );
-
-      if (result == true) {
+      if (currentCoins >= 10) {
+        await Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const CoffeeFortuneUploadScreen()),
+        );
         final updatedCoins = await CoinService().getCoins();
         setState(() {
           _coins = updatedCoins;
         });
+      } else {
+        final result = await Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const WatchAdPage()),
+        );
+
+        if (result == true) {
+          final updatedCoins = await CoinService().getCoins();
+          setState(() {
+            _coins = updatedCoins;
+          });
+        }
       }
     }
   }
-}
 
-
-
-  // Fal kartları
   Widget _buildFortuneCard(String title, IconData icon) => Card(
         elevation: 2,
         child: InkWell(
@@ -129,70 +124,70 @@ class _HomePageState extends State<HomePage> {
         ),
       );
 
-  // Alt navigasyon
   Widget _buildBottomNavigationBar() => BottomNavigationBar(
-      currentIndex: _selectedIndex,
-      onTap: (index) async {
-        setState(() => _selectedIndex = index);
+        currentIndex: _selectedIndex,
+        onTap: (index) async {
+          setState(() => _selectedIndex = index);
 
-        if (index == 4) {
-          final result = await Navigator.push(
-            context,
-            MaterialPageRoute(builder: (_) => const WatchAdPage()),
-          );
+          if (index == 4) {
+            final result = await Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const WatchAdPage()),
+            );
 
-          if (result == true) {
-            final current = await CoinService().getCoins();
-            setState(() {
-              _coins = current;
-            });
+            if (result == true) {
+              final current = await CoinService().getCoins();
+              setState(() {
+                _coins = current;
+              });
+            }
+          } else if (index == 3) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const HoroscopeScreen()),
+            );
+          } else if (index == 2) {
+            final result = await Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const PlayGamePage()),
+            );
+
+            if (result == true) {
+              final current = await CoinService().getCoins();
+              setState(() {
+                _coins = current;
+              });
+            }
+          } else if (index == 1) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const FallarimPage()),
+            );
           }
-        }
-
-        if (index == 3) {
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (_) => const HoroscopeScreen()),
-          );
-        }
-
-        if (index == 2) {
-          final result = await Navigator.push(
-            context,
-            MaterialPageRoute(builder: (_) => const PlayGamePage()),
-          );
-
-          if (result == true) {
-            final current = await CoinService().getCoins();
-            setState(() {
-              _coins = current;
-            });
-          }
-        }
-      },
-      items: const [
-        BottomNavigationBarItem(
-          icon: Icon(Icons.home),
-          label: 'Ana Sayfa',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.history),
-          label: 'Fallarım',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.agriculture),
-          label: 'Çiftlik',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.star_border),
-          label: 'Burçlar',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.workspace_premium),
-          label: 'Premium',
-        ),
-      ],
-    );
+        },
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Ana Sayfa',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.history),
+            label: 'Fallarım',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.agriculture),
+            label: 'Çiftlik',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.star_border),
+            label: 'Burçlar',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.workspace_premium),
+            label: 'Premium',
+          ),
+        ],
+      );
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -215,27 +210,24 @@ class _HomePageState extends State<HomePage> {
         ),
         body: Column(
           children: [
-            // Bilgilendirme Paneli
-            if (_isFortuneStarted)  // Fala bakma başladıysa
+            if (_isFortuneStarted)
               Container(
                 padding: const EdgeInsets.all(16),
                 color: Colors.orangeAccent,
                 child: Text(
-                  _infoMessage,  // Dinamik mesaj burada gösterilecek
+                  _infoMessage,
                   style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
-            // Geri sayım
             if (_countdown > 0)
               Text(
                 'Kahve falınıza $_formattedTime kaldı!',
                 style: const TextStyle(fontSize: 20),
               ),
-            // Fal kartları
-            Flexible(  // Değişiklik burada
+            Flexible(
               child: GridView.count(
                 padding: const EdgeInsets.all(16),
                 crossAxisCount: 3,

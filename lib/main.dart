@@ -5,13 +5,14 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'screens/kullanici_bilgileri.dart';
 import 'firebase_options.dart';
 import 'home.dart'; // yeni eklediğimiz HomePage burada
+import 'package:falci_ana/services/fal_yorum_kutusu.dart'; // <-- bunu en üste ekle
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
+  await FalYorumKutusu.yukle(); // <-- Fal yorumları JSON'dan yüklensin
   final prefs = await SharedPreferences.getInstance();
   final hasUserInfo = prefs.containsKey('user_name') && prefs.containsKey('birth_date');
 

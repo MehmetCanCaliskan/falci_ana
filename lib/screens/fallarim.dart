@@ -1,12 +1,13 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'dart:convert';
+import 'package:intl/intl.dart';
 
 class FallarimPage extends StatefulWidget {
-  const FallarimPage({Key? key}) : super(key: key);
+  const FallarimPage({super.key});
 
   @override
-  _FallarimPageState createState() => _FallarimPageState();
+  State<FallarimPage> createState() => _FallarimPageState();
 }
 
 class _FallarimPageState extends State<FallarimPage> {
@@ -20,67 +21,50 @@ class _FallarimPageState extends State<FallarimPage> {
 
   Future<void> _loadFallar() async {
     final prefs = await SharedPreferences.getInstance();
-    final falJsonList = prefs.getStringList('fallar') ?? [];
+    final saved = prefs.getStringList('fallar') ?? [];
 
-    final loadedFallar = falJsonList
-        .map((falString) => json.decode(falString) as Map<String, dynamic>)
-        .toList();
-
-    // En günceli en üste koy
-    loadedFallar.sort((a, b) =>
-        DateTime.parse(b['tarih']).compareTo(DateTime.parse(a['tarih'])));
+    final List<Map<String, dynamic>> parsed = saved.map((e) => json.decode(e) as Map<String, dynamic>).toList();
+    parsed.sort((a, b) => b['tarih'].compareTo(a['tarih'])); // En güncel üstte
 
     setState(() {
-      fallar = loadedFallar.take(30).toList(); // son 30 fal
+      fallar = parsed;
     });
   }
 
-  bool _isAcikMi(DateTime tarih) {
-    final now = DateTime.now();
-    return now.difference(tarih).inMinutes >= 15;
+  bool _falAktifMi(String tarihStr) {
+    final tarih = DateTime.parse(tarihStr);
+    final fark = DateTime.now().difference(tarih).inMinutes;
+    return fark >= 15;
+  }
+
+  String _formatTarih(String iso) {
+    final date = DateTime.parse(iso);
+    return DateFormat('dd.MM.yyyy HH:mm').format(date);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Fallarım')),
-      body: ListView.builder(
-        itemCount: fallar.length,
-        itemBuilder: (context, index) {
-          final fal = fallar[index];
-          final tarih = DateTime.parse(fal['tarih']);
-          final acikMi = _isAcikMi(tarih);
-
-          return ListTile(
-            title: Text("${fal['tur']} - ${_formatTarihSaat(tarih)}"),
-            subtitle: Text(acikMi
-                ? 'Fal hazır, dokunup açabilirsin'
-                : 'Hazırlanıyor... (${15 - DateTime.now().difference(tarih).inMinutes} dk kaldı)'),
-            trailing: Icon(acikMi ? Icons.visibility : Icons.lock),
-            onTap: acikMi
-                ? () {
-                    // Fal içeriği gösterilebilir
-                    showDialog(
-                      context: context,
-                      builder: (_) => AlertDialog(
-                        title: Text(fal['tur']),
-                        content: Text(fal['yorum']),
-                        actions: [
-                          TextButton(
-                              onPressed: () => Navigator.pop(context),
-                              child: const Text("Kapat"))
-                        ],
-                      ),
-                    );
-                  }
-                : null,
-          );
-        },
-      ),
+      appBar: AppBar(title: const Text("Fallarım")),
+      body: fallar.isEmpty
+          ? const Center(child: Text("Henüz fal bakılmamış."))
+          : ListView.builder(
+              itemCount: fallar.length,
+              itemBuilder: (context, index) {
+                final fal = fallar[index];
+                final aktif = _falAktifMi(fal['tarih']);
+                return Card(
+                  margin: const EdgeInsets.all(8),
+                  child: ListTile(
+                    title: Text("${fal['tur']} - ${_formatTarih(fal['tarih'])}"),
+                    subtitle: aktif
+                        ? Text(fal['yorum'])
+                        : const Text("Bu fal henüz açılmadı. Lütfen 15 dakika bekleyin."),
+                    enabled: aktif,
+                  ),
+                );
+              },
+            ),
     );
-  }
-
-  String _formatTarihSaat(DateTime date) {
-    return "${date.day.toString().padLeft(2, '0')}.${date.month.toString().padLeft(2, '0')}.${date.year} ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}";
   }
 }

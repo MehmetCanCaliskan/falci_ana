@@ -2,6 +2,9 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import '../coin_service.dart'; // CoinService'yi import ettik
+import 'package:shared_preferences/shared_preferences.dart';
+import '../services/fal_yorum_kutusu.dart';
+import 'dart:convert';
 
 class CoffeeFortuneUploadScreen extends StatefulWidget {
   const CoffeeFortuneUploadScreen({super.key});
@@ -54,6 +57,26 @@ class _CoffeeFortuneUploadScreenState extends State<CoffeeFortuneUploadScreen> {
     }
   }
 
+  Future<void> _falaBakVeKaydet() async {
+  final prefs = await SharedPreferences.getInstance();
+
+  final isDurumu = prefs.getString('is_durumu') ?? 'İş arıyor';
+  final iliskiDurumu = prefs.getString('iliski_durumu') ?? 'İlişkisi Yok';
+
+  final yorum = FalYorumKutusu.falAlProfilIle(isDurumu, iliskiDurumu);
+  final now = DateTime.now();
+
+  final yeniFal = {
+    "tur": "Kahve Falı",
+    "tarih": now.toIso8601String(),
+    "yorum": yorum,
+  };
+
+  final eskiFallar = prefs.getStringList('fallar') ?? [];
+  eskiFallar.add(json.encode(yeniFal));
+  await prefs.setStringList('fallar', eskiFallar);
+}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -101,14 +124,15 @@ class _CoffeeFortuneUploadScreenState extends State<CoffeeFortuneUploadScreen> {
                 child: ElevatedButton(
                   onPressed: () async {
                     if (_images.isNotEmpty) {
-                      // Fotoğraf yüklendikten sonra jeton düşürme
-                      bool success = await CoinService().deductCoins(10); // 10 jeton düşürme
+                      bool success = await CoinService().deductCoins(10);
                       if (success) {
+                        await _falaBakVeKaydet(); // ← JSON'dan fal al ve kaydet
+
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text('Falınız hazırlanıyor...')),
                         );
 
-                        Navigator.pop(context);  // Ana ekrana geri dön
+                        Navigator.pop(context);
                       } else {
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text('Yeterli jetonunuz yok!')),
