@@ -6,6 +6,7 @@ import 'screens/watch_ad_page.dart';
 import 'screens/play_game_page.dart'; // import et
 import 'screens/kahve_fali.dart'; // Kahve Falı ekranını import ettik
 import 'screens/fallarim.dart';
+import 'screens/tarot_fali.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -94,20 +95,21 @@ class _HomePageState extends State<HomePage> {
           _coins = updatedCoins;
         });
       } else {
-        final result = await Navigator.push(
-          context,
-          MaterialPageRoute(builder: (_) => const WatchAdPage()),
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Yeterli jetonunuz yok!')),
         );
-
-        if (result == true) {
-          final updatedCoins = await CoinService().getCoins();
-          setState(() {
-            _coins = updatedCoins;
-          });
-        }
       }
+
+    } else if (title == 'Tarot Falı') {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (_) => const TarotFaliPage()),
+      );
     }
+
+    // Diğer fallar için buraya else if ekleyebilirsin
   }
+
 
   Widget _buildFortuneCard(String title, IconData icon) => Card(
         elevation: 2,

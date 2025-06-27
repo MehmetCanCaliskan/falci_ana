@@ -8,21 +8,26 @@ class FalService {
     required String iliskiDurumu,
     required String kullaniciAdi,
   }) async {
-    final jsonString = await rootBundle.loadString('assets/fallar.json');
-    final jsonData = json.decode(jsonString);
-
-    final fallar = jsonData['fallar'] as List;
+    final jsonString = await rootBundle.loadString('assets/config/fallar.json');
+    final List<dynamic> fallar = json.decode(jsonString);
 
     // Uygun falı bul
     final uygunFallar = fallar.where((fal) =>
       fal['is_durumu'] == isDurumu && fal['iliski_durumu'] == iliskiDurumu).toList();
+    
+    
+    // 🐞 Debug için buraya ekle:
+    print('🧪 is_durumu: $isDurumu');
+    print('🧪 iliski_durumu: $iliskiDurumu');
+    print('🧪 Eşleşen fal sayısı: ${uygunFallar.length}');
 
+    
     if (uygunFallar.isNotEmpty) {
-      final randomFal = (uygunFallar..shuffle()).first;
-      String metin = randomFal['fal_metni'];
+      uygunFallar.shuffle(); // Rastgele seçmek için
+      final metin = uygunFallar.first['fal_metni'];
       return metin.replaceAll('[Kullanıcı Adı]', kullaniciAdi);
     } else {
-      return null;
+      return 'Fincan sessiz ama gözlerin çok şey söylüyor...';
     }
   }
 
@@ -41,7 +46,6 @@ class FalService {
     final eskiFallarString = prefs.getStringList('fallar') ?? [];
     final yeniFallarString = [json.encode(yeniFal), ...eskiFallarString];
 
-    // Maksimum 30 kayıt tut
     prefs.setStringList('fallar', yeniFallarString.take(30).toList());
   }
 

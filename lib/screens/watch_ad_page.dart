@@ -11,7 +11,7 @@ class WatchAdPage extends StatelessWidget {
 
     await Future.delayed(const Duration(seconds: 3)); // Simülasyon
 
-    await CoinService().addCoins(2);
+    await CoinService().addCoins(10);
 
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('+2 jeton kazandınız 🎁')),

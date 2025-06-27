@@ -1,8 +1,362 @@
-{
-  "ev_hanımı_ilişkisi_var": [
-    "Sevgili [Kullanıcı Adı], fincanını elime aldığımda sakin ama derinden akan bir suyun enerjisini hissettim..."
-  ],
-  "iş_arıyor_ilişkisi_yok": [
-    "Merhaba [Kullanıcı Adı], telvelerin fısıltıları geleceğe dair ne kadar heyecanlı ve umutlu olduğunu söylüyor..."
-  ]
-}
+[
+  {
+    "is_durumu": "Ev hanımı",
+    "iliski_durumu": "İlişkisi Var",
+    "fal_metni": "Ev hanımı olman ve İlişkisi Var olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Ev hanımı",
+    "iliski_durumu": "Nişanlı",
+    "fal_metni": "Ev hanımı olman ve Nişanlı olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Ev hanımı",
+    "iliski_durumu": "Evli",
+    "fal_metni": "Ev hanımı olman ve Evli olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Ev hanımı",
+    "iliski_durumu": "İlişkisi Yok",
+    "fal_metni": "Ev hanımı olman ve İlişkisi Yok olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nKararlarını erteleme, doğru zaman şimdi."
+  },
+  {
+    "is_durumu": "Ev hanımı",
+    "iliski_durumu": "Boşanmış",
+    "fal_metni": "Ev hanımı olman ve Boşanmış olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Ev hanımı",
+    "iliski_durumu": "Dul",
+    "fal_metni": "Ev hanımı olman ve Dul olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Ev hanımı",
+    "iliski_durumu": "Platonik",
+    "fal_metni": "Ev hanımı olman ve Platonik olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Ev hanımı",
+    "iliski_durumu": "Ayrılmış",
+    "fal_metni": "Ev hanımı olman ve Ayrılmış olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Çalışmıyor",
+    "iliski_durumu": "İlişkisi Var",
+    "fal_metni": "Çalışmıyor olman ve İlişkisi Var olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nKararlarını erteleme, doğru zaman şimdi."
+  },
+  {
+    "is_durumu": "Çalışmıyor",
+    "iliski_durumu": "Nişanlı",
+    "fal_metni": "Çalışmıyor olman ve Nişanlı olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Çalışmıyor",
+    "iliski_durumu": "Evli",
+    "fal_metni": "Çalışmıyor olman ve Evli olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Çalışmıyor",
+    "iliski_durumu": "İlişkisi Yok",
+    "fal_metni": "Çalışmıyor olman ve İlişkisi Yok olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Çalışmıyor",
+    "iliski_durumu": "Boşanmış",
+    "fal_metni": "Çalışmıyor olman ve Boşanmış olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Çalışmıyor",
+    "iliski_durumu": "Dul",
+    "fal_metni": "Çalışmıyor olman ve Dul olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Çalışmıyor",
+    "iliski_durumu": "Platonik",
+    "fal_metni": "Çalışmıyor olman ve Platonik olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Çalışmıyor",
+    "iliski_durumu": "Ayrılmış",
+    "fal_metni": "Çalışmıyor olman ve Ayrılmış olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "İş arıyor",
+    "iliski_durumu": "İlişkisi Var",
+    "fal_metni": "İş arıyor olman ve İlişkisi Var olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "İş arıyor",
+    "iliski_durumu": "Nişanlı",
+    "fal_metni": "İş arıyor olman ve Nişanlı olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "İş arıyor",
+    "iliski_durumu": "Evli",
+    "fal_metni": "İş arıyor olman ve Evli olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "İş arıyor",
+    "iliski_durumu": "İlişkisi Yok",
+    "fal_metni": "İş arıyor olman ve İlişkisi Yok olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "İş arıyor",
+    "iliski_durumu": "Boşanmış",
+    "fal_metni": "İş arıyor olman ve Boşanmış olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "İş arıyor",
+    "iliski_durumu": "Dul",
+    "fal_metni": "İş arıyor olman ve Dul olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "İş arıyor",
+    "iliski_durumu": "Platonik",
+    "fal_metni": "İş arıyor olman ve Platonik olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "İş arıyor",
+    "iliski_durumu": "Ayrılmış",
+    "fal_metni": "İş arıyor olman ve Ayrılmış olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nKararlarını erteleme, doğru zaman şimdi."
+  },
+  {
+    "is_durumu": "Öğrenci",
+    "iliski_durumu": "İlişkisi Var",
+    "fal_metni": "Öğrenci olman ve İlişkisi Var olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nKararlarını erteleme, doğru zaman şimdi."
+  },
+  {
+    "is_durumu": "Öğrenci",
+    "iliski_durumu": "Nişanlı",
+    "fal_metni": "Öğrenci olman ve Nişanlı olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Öğrenci",
+    "iliski_durumu": "Evli",
+    "fal_metni": "Öğrenci olman ve Evli olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Öğrenci",
+    "iliski_durumu": "İlişkisi Yok",
+    "fal_metni": "Öğrenci olman ve İlişkisi Yok olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nKararlarını erteleme, doğru zaman şimdi."
+  },
+  {
+    "is_durumu": "Öğrenci",
+    "iliski_durumu": "Boşanmış",
+    "fal_metni": "Öğrenci olman ve Boşanmış olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Öğrenci",
+    "iliski_durumu": "Dul",
+    "fal_metni": "Öğrenci olman ve Dul olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Öğrenci",
+    "iliski_durumu": "Platonik",
+    "fal_metni": "Öğrenci olman ve Platonik olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Öğrenci",
+    "iliski_durumu": "Ayrılmış",
+    "fal_metni": "Öğrenci olman ve Ayrılmış olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Akademisyen",
+    "iliski_durumu": "İlişkisi Var",
+    "fal_metni": "Akademisyen olman ve İlişkisi Var olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Akademisyen",
+    "iliski_durumu": "Nişanlı",
+    "fal_metni": "Akademisyen olman ve Nişanlı olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Akademisyen",
+    "iliski_durumu": "Evli",
+    "fal_metni": "Akademisyen olman ve Evli olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Akademisyen",
+    "iliski_durumu": "İlişkisi Yok",
+    "fal_metni": "Akademisyen olman ve İlişkisi Yok olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Akademisyen",
+    "iliski_durumu": "Boşanmış",
+    "fal_metni": "Akademisyen olman ve Boşanmış olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Akademisyen",
+    "iliski_durumu": "Dul",
+    "fal_metni": "Akademisyen olman ve Dul olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Akademisyen",
+    "iliski_durumu": "Platonik",
+    "fal_metni": "Akademisyen olman ve Platonik olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Akademisyen",
+    "iliski_durumu": "Ayrılmış",
+    "fal_metni": "Akademisyen olman ve Ayrılmış olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Kendi işini yapıyor",
+    "iliski_durumu": "İlişkisi Var",
+    "fal_metni": "Kendi işini yapıyor olman ve İlişkisi Var olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Kendi işini yapıyor",
+    "iliski_durumu": "Nişanlı",
+    "fal_metni": "Kendi işini yapıyor olman ve Nişanlı olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nKararlarını erteleme, doğru zaman şimdi."
+  },
+  {
+    "is_durumu": "Kendi işini yapıyor",
+    "iliski_durumu": "Evli",
+    "fal_metni": "Kendi işini yapıyor olman ve Evli olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Kendi işini yapıyor",
+    "iliski_durumu": "İlişkisi Yok",
+    "fal_metni": "Kendi işini yapıyor olman ve İlişkisi Yok olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Kendi işini yapıyor",
+    "iliski_durumu": "Boşanmış",
+    "fal_metni": "Kendi işini yapıyor olman ve Boşanmış olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Kendi işini yapıyor",
+    "iliski_durumu": "Dul",
+    "fal_metni": "Kendi işini yapıyor olman ve Dul olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Kendi işini yapıyor",
+    "iliski_durumu": "Platonik",
+    "fal_metni": "Kendi işini yapıyor olman ve Platonik olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Kendi işini yapıyor",
+    "iliski_durumu": "Ayrılmış",
+    "fal_metni": "Kendi işini yapıyor olman ve Ayrılmış olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Kamu sektörü",
+    "iliski_durumu": "İlişkisi Var",
+    "fal_metni": "Kamu sektörü olman ve İlişkisi Var olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Kamu sektörü",
+    "iliski_durumu": "Nişanlı",
+    "fal_metni": "Kamu sektörü olman ve Nişanlı olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Kamu sektörü",
+    "iliski_durumu": "Evli",
+    "fal_metni": "Kamu sektörü olman ve Evli olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Kamu sektörü",
+    "iliski_durumu": "İlişkisi Yok",
+    "fal_metni": "Kamu sektörü olman ve İlişkisi Yok olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nKararlarını erteleme, doğru zaman şimdi."
+  },
+  {
+    "is_durumu": "Kamu sektörü",
+    "iliski_durumu": "Boşanmış",
+    "fal_metni": "Kamu sektörü olman ve Boşanmış olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Kamu sektörü",
+    "iliski_durumu": "Dul",
+    "fal_metni": "Kamu sektörü olman ve Dul olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Kamu sektörü",
+    "iliski_durumu": "Platonik",
+    "fal_metni": "Kamu sektörü olman ve Platonik olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Kamu sektörü",
+    "iliski_durumu": "Ayrılmış",
+    "fal_metni": "Kamu sektörü olman ve Ayrılmış olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Özel sektör",
+    "iliski_durumu": "İlişkisi Var",
+    "fal_metni": "Özel sektör olman ve İlişkisi Var olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Özel sektör",
+    "iliski_durumu": "Nişanlı",
+    "fal_metni": "Özel sektör olman ve Nişanlı olman hayatında yeni bir döneme işaret ediyor.\n\nYarım kalan işler tamamlanacak gibi duruyor.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Özel sektör",
+    "iliski_durumu": "Evli",
+    "fal_metni": "Özel sektör olman ve Evli olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nKararlarını erteleme, doğru zaman şimdi."
+  },
+  {
+    "is_durumu": "Özel sektör",
+    "iliski_durumu": "İlişkisi Yok",
+    "fal_metni": "Özel sektör olman ve İlişkisi Yok olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Özel sektör",
+    "iliski_durumu": "Boşanmış",
+    "fal_metni": "Özel sektör olman ve Boşanmış olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nKararlarını erteleme, doğru zaman şimdi."
+  },
+  {
+    "is_durumu": "Özel sektör",
+    "iliski_durumu": "Dul",
+    "fal_metni": "Özel sektör olman ve Dul olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Özel sektör",
+    "iliski_durumu": "Platonik",
+    "fal_metni": "Özel sektör olman ve Platonik olman hayatında yeni bir döneme işaret ediyor.\n\nÖnümüzdeki günlerde alacağın haber seni şaşırtabilir.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Özel sektör",
+    "iliski_durumu": "Ayrılmış",
+    "fal_metni": "Özel sektör olman ve Ayrılmış olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Emekli",
+    "iliski_durumu": "İlişkisi Var",
+    "fal_metni": "Emekli olman ve İlişkisi Var olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Emekli",
+    "iliski_durumu": "Nişanlı",
+    "fal_metni": "Emekli olman ve Nişanlı olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Emekli",
+    "iliski_durumu": "Evli",
+    "fal_metni": "Emekli olman ve Evli olman hayatında yeni bir döneme işaret ediyor.\n\nKafanı kurcalayan bir konuda iç sesin sana doğru yolu gösterecek.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Emekli",
+    "iliski_durumu": "İlişkisi Yok",
+    "fal_metni": "Emekli olman ve İlişkisi Yok olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nİçindeki gücü fark et ve onu kullan."
+  },
+  {
+    "is_durumu": "Emekli",
+    "iliski_durumu": "Boşanmış",
+    "fal_metni": "Emekli olman ve Boşanmış olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nKendine güvenmeye devam et, evren seninle."
+  },
+  {
+    "is_durumu": "Emekli",
+    "iliski_durumu": "Dul",
+    "fal_metni": "Emekli olman ve Dul olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nŞans senin tarafında, yeter ki inancını yitirme."
+  },
+  {
+    "is_durumu": "Emekli",
+    "iliski_durumu": "Platonik",
+    "fal_metni": "Emekli olman ve Platonik olman hayatında yeni bir döneme işaret ediyor.\n\nBeklemediğin bir yerden maddi bir fırsat doğacak.\n\nBugünlerde atacağın adımlar geleceğini etkileyecek."
+  },
+  {
+    "is_durumu": "Emekli",
+    "iliski_durumu": "Ayrılmış",
+    "fal_metni": "Emekli olman ve Ayrılmış olman hayatında yeni bir döneme işaret ediyor.\n\nYeni biriyle tanışman hayatını değiştirebilir.\n\nİçindeki gücü fark et ve onu kullan."
+  }
+]

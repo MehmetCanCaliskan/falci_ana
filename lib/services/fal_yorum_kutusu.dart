@@ -2,19 +2,20 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
 class FalYorumKutusu {
-  static Map<String, List<String>> yorumlar = {};
+  static List<Map<String, dynamic>> _fallar = [];
 
   static Future<void> yukle() async {
     final data = await rootBundle.loadString('assets/config/fallar.json');
-    yorumlar = Map<String, List<String>>.from(
-      json.decode(data).map((key, value) => MapEntry(key, List<String>.from(value))),
-    );
+    _fallar = List<Map<String, dynamic>>.from(json.decode(data));
   }
 
   static String falAlProfilIle(String isDurumu, String iliskiDurumu) {
-    final key = "${isDurumu.toLowerCase()}_${iliskiDurumu.toLowerCase()}";
-    final list = yorumlar[key] ?? ["Fincan sessiz ama gözlerin çok şey söylüyor..."];
-    list.shuffle();
-    return list.first;
+    final fal = _fallar.firstWhere(
+      (f) => f['is_durumu'] == isDurumu && f['iliski_durumu'] == iliskiDurumu,
+      orElse: () => {
+        'fal_metni': 'Fincan sessiz ama gözlerin çok şey söylüyor...'
+      },
+    );
+    return fal['fal_metni'] ?? 'Fal bulunamadı.';
   }
 }

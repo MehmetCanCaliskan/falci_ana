@@ -125,30 +125,48 @@ class _CoffeeFortuneUploadScreenState extends State<CoffeeFortuneUploadScreen> {
                 width: MediaQuery.of(context).size.width * 0.9,
                 child: ElevatedButton(
                   onPressed: () async {
+                    print("1️⃣ Butona basıldı");
+
                     if (_images.isNotEmpty) {
+                      print("2️⃣ Fotoğraf yüklü");
+
                       bool success = await CoinService().deductCoins(10);
+                      print("3️⃣ Jeton düşüldü: $success");
+
                       if (success) {
+                        print("4️⃣ Fal kaydediliyor...");
                         await _falaBakVeKaydet();
+                        print("5️⃣ Fal kaydedildi");
 
-                        if (!mounted) return; // Widget hâlâ hayattaysa
+                        if (!mounted) {
+                          print("6️⃣ Widget mount edilmemiş");
+                          return;
+                        }
 
-                        Navigator.of(context).pushAndRemoveUntil(
+                        print("7️⃣ Ana sayfaya yönlendiriliyor...");
+                        Navigator.pushAndRemoveUntil(
+                          context,
                           MaterialPageRoute(builder: (_) => const HomePage()),
                           (Route<dynamic> route) => false,
                         );
+                        print("8️⃣ Yönlendirme komutu gönderildi");
+
                       } else {
+                        print("❌ Yetersiz jeton");
                         if (!mounted) return;
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text('Yeterli jetonunuz yok!')),
                         );
                       }
                     } else {
+                      print("❌ Fotoğraf yüklenmemiş");
                       if (!mounted) return;
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(content: Text('Lütfen en az bir fotoğraf yükleyin')),
                       );
                     }
                   },
+
 
                   child: const Text('Fala Bak'),
                 ),

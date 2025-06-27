@@ -52,18 +52,25 @@ class _FallarimPageState extends State<FallarimPage> {
               itemCount: fallar.length,
               itemBuilder: (context, index) {
                 final fal = fallar[index];
+
+                // 🔒 Güvenlik kontrolü – tarih yoksa bu öğeyi göstermeyelim
+                if (fal['tarih'] == null || fal['fal_turu'] == null || fal['metin'] == null) {
+                  return const SizedBox(); // boş kutu döndür, hata vermez
+                }
+
                 final aktif = _falAktifMi(fal['tarih']);
                 return Card(
                   margin: const EdgeInsets.all(8),
                   child: ListTile(
-                    title: Text("${fal['tur']} - ${_formatTarih(fal['tarih'])}"),
+                    title: Text("${fal['fal_turu']} - ${_formatTarih(fal['tarih'])}"),
                     subtitle: aktif
-                        ? Text(fal['yorum'])
+                        ? Text(fal['metin'])
                         : const Text("Bu fal henüz açılmadı. Lütfen 15 dakika bekleyin."),
                     enabled: aktif,
                   ),
                 );
-              },
+              }
+
             ),
     );
   }
