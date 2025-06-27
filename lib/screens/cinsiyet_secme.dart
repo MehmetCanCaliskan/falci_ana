@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'job_status_screen.dart';  // İş durumu ekranına yönlendirecek
+import 'is_durumu.dart';  // İş durumu ekranına yönlendirecek
 
 class GenderScreen extends StatefulWidget {
   const GenderScreen({super.key});

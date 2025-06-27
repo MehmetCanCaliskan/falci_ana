@@ -2,7 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'screens/user_info_screen.dart';
+import 'screens/kullanici_bilgileri.dart';
 import 'firebase_options.dart';
 import 'home.dart'; // yeni eklediğimiz HomePage burada
 

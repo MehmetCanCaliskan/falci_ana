@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'relationship_status_screen.dart';  // İlişki durumu ekranına yönlendirecek
+import 'iliski_durumu.dart';  // İlişki durumu ekranına yönlendirecek
 
 class JobStatusScreen extends StatefulWidget {
   const JobStatusScreen({super.key});

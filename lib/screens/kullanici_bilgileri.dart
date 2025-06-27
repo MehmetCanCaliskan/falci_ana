@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'gender_screen.dart';  // Cinsiyet ekranına yönlendirecek
+import 'cinsiyet_secme.dart';  // Cinsiyet ekranına yönlendirecek
 
 class UserInfoScreen extends StatefulWidget {
   const UserInfoScreen({super.key});
