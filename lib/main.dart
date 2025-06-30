@@ -1,18 +1,18 @@
+import 'package:falci_ana/services/fal_yorum_kutusu.dart'; // <-- en üste alındı
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'screens/kullanici_bilgileri.dart';
 import 'firebase_options.dart';
-import 'home.dart'; // yeni eklediğimiz HomePage burada
-import 'package:falci_ana/services/fal_yorum_kutusu.dart'; // <-- bunu en üste ekle
+import 'home.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  await FalYorumKutusu.yukle(); // <-- Fal yorumları JSON'dan yüklensin
+  await FalYorumKutusu.yukle(); // JSON'dan yorumlar yüklensin
   final prefs = await SharedPreferences.getInstance();
   final hasUserInfo = prefs.containsKey('user_name') && prefs.containsKey('birth_date');
 
@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Fal Uygulaması',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.purple,
         brightness: Brightness.dark,
@@ -43,12 +44,13 @@ class MyApp extends StatelessWidget {
         ),
       ),
       supportedLocales: const [
-        Locale('en', 'US'), // İngilizce
-        Locale('tr', 'TR'), // Türkçe
+        Locale('en', 'US'),
+        Locale('tr', 'TR'),
       ],
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate, // <-- eklendi
       ],
       home: showUserInfoScreen ? const UserInfoScreen() : const HomePage(),
     );

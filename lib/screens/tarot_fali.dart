@@ -1,156 +1,132 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
 
 class TarotFaliPage extends StatefulWidget {
-  const TarotFaliPage({super.key});
+  const TarotFaliPage({Key? key}) : super(key: key);
+
   @override
-  _TarotFaliPageState createState() => _TarotFaliPageState();
+  State<TarotFaliPage> createState() => _TarotFaliPageState();
 }
 
 class _TarotFaliPageState extends State<TarotFaliPage>
-    with SingleTickerProviderStateMixin {
-  final int total = 6;
-  late final AnimationController _ctrl;
-  final List<bool> _chosen = [];
-  List<Animation<Offset>> _animations = [];
+    with TickerProviderStateMixin {
+  List<int> selectedCards = [];
+  List<AnimationController> controllers = [];
+  List<Animation<Offset>> animations = [];
+  final int totalCards = 6 * 13; // 6 sütun x 13 sıra
 
   @override
   void initState() {
     super.initState();
-    _chosen.addAll(List.filled(total, false));
-    _ctrl = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 800),
-    );
-    _animations = List.generate(total, (i) {
-      final start = i * 0.1;
-      final end = start + 0.5;
-      return Tween<Offset>(
-        begin: const Offset(2, -2),
+    for (int i = 0; i < totalCards; i++) {
+      final controller = AnimationController(
+        vsync: this,
+        duration: const Duration(milliseconds: 500),
+      );
+      final animation = Tween<Offset>(
+        begin: const Offset(0, -2),
         end: Offset.zero,
-      ).animate(CurvedAnimation(
-        parent: _ctrl,
-        curve: Interval(start, end, curve: Curves.easeOut),
-      ));
+      ).animate(CurvedAnimation(parent: controller, curve: Curves.easeOut));
+      controllers.add(controller);
+      animations.add(animation);
+    }
+
+    Future.delayed(const Duration(milliseconds: 300), () {
+      for (int i = 0; i < totalCards; i++) {
+        Future.delayed(Duration(milliseconds: 20 * i), () {
+          controllers[i].forward();
+        });
+      }
     });
-    _ctrl.forward();
   }
 
   @override
   void dispose() {
-    _ctrl.dispose();
+    for (var c in controllers) {
+      c.dispose();
+    }
     super.dispose();
   }
 
-  String _cardName(int i) {
-    return ['Fool','Magician','High Priestess','Empress','Lovers','Chariot'][i];
-  }
+  void onCardTap(int index) {
+    if (selectedCards.contains(index) || selectedCards.length >= 3) return;
+    setState(() {
+      selectedCards.add(index);
+    });
 
-  Widget _buildCard(int i) {
-    final chosen = _chosen[i];
-    return SlideTransition(
-      position: _animations[i],
-      child: GestureDetector(
-        onTap: () {
-          setState(() {
-            if (_chosen.where((c) => c).length < 3 || chosen) {
-              _chosen[i] = !chosen;
-            }
-          });
-        },
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 300),
-          margin: const EdgeInsets.all(8),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(8),
-            border: chosen
-                ? Border.all(color: Colors.purple, width: 4)
-                : null,
-            boxShadow: chosen
-                ? [BoxShadow(color: Colors.purpleAccent, blurRadius: 8)]
-                : null,
+    if (selectedCards.length == 3) {
+      Future.delayed(const Duration(milliseconds: 500), () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (_) => TarotResultPage(cards: selectedCards),
           ),
-          child: Image.asset(
-            'assets/tarot/${_cardName(i).toLowerCase()}.png',
-            height: 100,
-          ),
-        ),
-      ),
-    );
+        );
+      });
+    }
   }
 
   @override
   Widget build(BuildContext context) {
-    final chosenCount = _chosen.where((c) => c).length;
     return Scaffold(
-      appBar: AppBar(title: const Text('Tarot Falı')),
-      body: Column(
-        children: [
-          Expanded(
-            child: Stack(
-              children: List.generate(total, (i) {
-                return Positioned(
-                  top: 50,
-                  left: 20 + i * 60,
-                  child: _buildCard(i),
-                );
-              }),
+      appBar: AppBar(title: const Text('Lütfen 3 kart seçiniz')),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Center(
+          child: GridView.builder(
+            physics: const NeverScrollableScrollPhysics(),
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 6, // 6 sütun
+              crossAxisSpacing: 4,
+              mainAxisSpacing: 4,
             ),
+            itemCount: totalCards,
+            itemBuilder: (context, index) {
+              return SlideTransition(
+                position: animations[index],
+                child: GestureDetector(
+                  onTap: () => onCardTap(index),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                          color: selectedCards.contains(index)
+                              ? Colors.greenAccent
+                              : Colors.white,
+                          width: 2),
+                      borderRadius: BorderRadius.circular(8),
+                      image: const DecorationImage(
+                        image:
+                            AssetImage('assets/tarot/tarot_card_back.png'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                ),
+              );
+            },
           ),
-          Padding(
-            padding: const EdgeInsets.all(16),
-            child: ElevatedButton(
-              onPressed: chosenCount == 3
-                  ? () {
-                      // Seçilen üç karta göre fal göster
-                      final selected = List.generate(total, (i) => i)
-                          .where((i) => _chosen[i])
-                          .map((i) => _cardName(i))
-                          .toList();
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) => TarotResultPage(selected),
-                        ),
-                      );
-                    }
-                  : null,
-              child: Text('Falımı Göster ($chosenCount / 3)'),
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }
 }
 
 class TarotResultPage extends StatelessWidget {
-  final List<String> cards;
-  const TarotResultPage(this.cards, {super.key});
+  final List<int> cards;
+  const TarotResultPage({super.key, required this.cards});
 
   @override
   Widget build(BuildContext context) {
-    final explanations = cards.map((c) {
-      switch (c) {
-        case 'Fool':
-          return 'The Fool: Yeni başlangıçlar, masumiyet.';
-        case 'Magician':
-          return 'The Magician: Yaratıcılık ve irade.';
-        // ...
-        default:
-          return c;
-      }
-    }).toList();
-
     return Scaffold(
-      appBar: AppBar(title: const Text('Seçilen Kartlar')),
-      body: ListView(
-        padding: const EdgeInsets.all(16),
-        children: explanations
-            .map((t) => Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 8),
-                  child: Text(t, style: const TextStyle(fontSize: 18)),
-                ))
-            .toList(),
+      appBar: AppBar(title: const Text('Fal Sonucu')),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            for (int i = 0; i < cards.length; i++)
+              Text('Kart ${i + 1}: Kart ID ${cards[i]}'),
+          ],
+        ),
       ),
     );
   }

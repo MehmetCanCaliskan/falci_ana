@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Sihirbaz",
+    "description": "Sihirbaz kartı, yaratıcı enerjinin, iradenin ve manifestasyon gücünün sembolüdür. Hayatında güçlü bir başlangıç yapma zamanı. Kaynakların sende mevcut, onları doğru kullanırsan büyük işler başarabilirsin.",
+    "image": "assets/tarot/themagician.jpeg"
+  },
+  {
+    "name": "Deli",
+    "description": "Deli kartı, yeni bir yolculuğun, keşfin ve özgürlüğün sembolüdür. Hayatında cesaretle bilinmeyene atılma zamanı. Riskler barındırsa da, yeni başlangıçlar için potansiyel yüksek.",
+    "image": "assets/tarot/thefool.jpeg"
+  },
+  {
+    "name": "Başrahibe",
+    "description": "Başrahibe kartı, sezgileri, gizemi ve içsel bilgeliği temsil eder. Bilinçaltına kulak ver. Dış dünyanın gürültüsünden uzaklaşıp iç sesini dinlemelisin.",
+    "image": "assets/tarot/thehighpriestess.jpeg"
+  },
+  {
+    "name": "İmparatoriçe",
+    "description": "İmparatoriçe, bolluğu, doğurganlığı ve yaratıcılığı temsil eder. Bu kart, hayatında verimli ve üretken bir dönemi işaret eder. Yeni projeler, ilişkiler veya fikirler doğabilir.",
+    "image": "assets/tarot/theempress.jpeg"
+  },
+  {
+    "name": "Aşıklar",
+    "description": "Aşıklar kartı, aşk, birliktelik ve karar verme temalarını içerir. Bu dönemde kalbinle mi yoksa mantığınla mı hareket edeceğine karar vermelisin.",
+    "image": "assets/tarot/thelovers.jpeg"
+  },
+  {
+    "name": "İmparator",
+    "description": "İmparator kartı, otorite, düzen ve liderliği temsil eder. Bu kart, hayatında yapı kurma ve sağlam temeller oluşturma zamanını işaret eder. Kararlarında mantıklı ve disiplinli olman gereken bir süreçtesin.",
+    "image": "assets/tarot/theemperor.jpeg"
+  },
+  {
+    "name": "Aziz",
+    "description": "Aziz kartı, gelenek, ruhsal rehberlik ve öğrenmeyi simgeler. Bilgi arayışında olduğun bir dönemde olabilirsin. Bir öğretmen, danışman ya da manevi bir figürden destek alman faydalı olabilir.",
+    "image": "assets/tarot/thehierophant.jpeg"
+  },
+  {
+    "name": "Savaş Arabası",
+    "description": "Savaş Arabası kartı, irade gücü, zafer ve kontrolü temsil eder. Hedeflerine ulaşmak için kararlı olmalı, engeller karşısında yılmamalısın. Azim ve öz disiplin seni başarıya götürecek.",
+    "image": "assets/tarot/thechariot.jpeg"
+  },
+  {
+    "name": "Güç",
+    "description": "Güç kartı, içsel dayanıklılığı, sabrı ve şefkati temsil eder. Dışsal değil, içsel bir güçten bahsedilir. Zorlayıcı durumları sevgi ve anlayışla aşabilirsin.",
+    "image": "assets/tarot/strength.jpeg"
+  },
+  {
+    "name": "Ermiş",
+    "description": "Ermiş kartı, içe dönüşü, yalnızlığı ve ruhsal bilgeliği simgeler. Şu anda içsel rehberliğe ihtiyaç duyuyor olabilirsin. Sessizliği dinle, kendi iç ışığını takip et.",
+    "image": "assets/tarot/thehermit.jpeg"
+  },{
+    "name": "Kader Çarkı",
+    "description": "Kader Çarkı kartı, değişim, kader ve döngüleri temsil eder. Hayatında beklenmedik gelişmeler yaşanabilir. Bu kart, iyi ya da kötü her şeyin geçici olduğunu ve değişimin kaçınılmaz olduğunu hatırlatır.",
+    "image": "assets/tarot/wheeloffortune.jpeg"
+  },
+  {
+    "name": "Adalet",
+    "description": "Adalet kartı, denge, dürüstlük ve hesap verme zamanını ifade eder. Alınan kararların sonuçlarıyla yüzleşme vakti gelmiştir. Tarafsız olmalı, olaylara adaletli bir bakış açısıyla yaklaşmalısın.",
+    "image": "assets/tarot/justice.jpeg"
+  },
+  {
+    "name": "Asılmış Adam",
+    "description": "Asılmış Adam kartı, duraklama, fedakârlık ve farklı bir bakış açısı kazanmayı simgeler. Sabırlı olmalı ve bazı şeyleri bırakmayı göze almalısın. Hayatındaki belirsizlik bir içsel dönüşüme yol açabilir.",
+    "image": "assets/tarot/thehangedman.jpeg"
+  },
+  {
+    "name": "Ölüm",
+    "description": "Ölüm kartı, bir dönemin sona erdiğini ve yenisinin başlayacağını simgeler. Bu kart, gerçek bir ölümü değil, dönüşümü ve yeniden doğuşu ifade eder. Bırakman gereken şeyleri geride bırakmalısın.",
+    "image": "assets/tarot/death.jpeg"
+  },
+  {
+    "name": "Denge",
+    "description": "Denge kartı, sabır, uyum ve içsel barışı temsil eder. Hayatında denge kurmak ve aşırılıklardan kaçınmak önemlidir. Bu süreçte ölçülü olmak, sana başarı ve huzur getirecektir.",
+    "image": "assets/tarot/temperance.jpeg"
+  },
+    {
+    "name": "Şeytan",
+    "description": "Şeytan kartı, bağımlılıklar, arzular ve kendini sınırlama temalarını temsil eder. Hayatında seni kısıtlayan toksik alışkanlıklar ya da ilişkiler olabilir. Bu kart, farkındalık geliştirerek bu zincirleri kırman gerektiğini gösterir.",
+    "image": "assets/tarot/thedevil.jpeg"
+  },
+  {
+    "name": "Kule",
+    "description": "Kule kartı, ani değişim, yıkım ve uyanış anlamına gelir. Sarsıcı bir olay yaşanabilir, ancak bu yıkım, seni daha sağlam temeller üzerine inşa etmeye zorlar. Gerçeklerle yüzleşme zamanı gelmiştir.",
+    "image": "assets/tarot/thetower.jpeg"
+  },
+  {
+    "name": "Yıldız",
+    "description": "Yıldız kartı, umut, ilham ve şifa anlamına gelir. Zor bir dönem sonrası iyileşme sürecindesin. Geleceğe dair umutlarını koru ve içsel rehberliğine güvenerek yoluna devam et.",
+    "image": "assets/tarot/thestar.jpeg"
+  },
+  {
+    "name": "Ay",
+    "description": "Ay kartı, belirsizlik, sezgiler ve gizli gerçekleri ifade eder. Her şey göründüğü gibi olmayabilir. Bu kart, iç sesini dinlemeni ve yanılsamalardan uzak durmanı öğütler.",
+    "image": "assets/tarot/themoon.jpeg"
+  },
+  {
+    "name": "Güneş",
+    "description": "Güneş kartı, neşe, başarı ve aydınlanma anlamına gelir. Hayatında olumlu gelişmeler yaşanacak. Kendine güvenin artacak ve çabalarının karşılığını alacaksın. Bu kart, mutluluğun simgesidir.",
+    "image": "assets/tarot/thesun.jpeg"
+  },
+  {
+    "name": "Mahkeme",
+    "description": "Mahkeme kartı, içsel uyanış, affetme ve yeniden doğuş temalarını taşır. Geçmişle yüzleşip ondan öğrenme zamanıdır. Bu kart, yeni bir başlangıcın ve ruhsal farkındalığın habercisidir.",
+    "image": "assets/tarot/judgement.jpeg"
+  },
+  {
+    "name": "Dünya",
+    "description": "Dünya kartı, tamamlanma, başarı ve bütünlük anlamına gelir. Uzun süredir emek verdiğin bir konuda sona geliyorsun. İçsel dengeyi bulma ve hedeflere ulaşma kartıdır.",
+    "image": "assets/tarot/theworld.jpeg"
+  },
+  {
+    "name": "Kupa Valesi",
+    "description": "Kupa Valesi, duygusal haberler, yeni romantik başlangıçlar ve içsel hassasiyet anlamına gelir. Bu kart, kalbini açmanı ve duygularını cesurca ifade etmeni öğütler.",
+    "image": "assets/tarot/pageofcups.jpeg"
+  },
+  {
+    "name": "Kupa Şövalyesi",
+    "description": "Kupa Şövalyesi, romantik teklifler, nazik bir ruh ve duygusal seyahat anlamına gelir. Aşk ya da duygusal bağlılıkla ilgili olumlu gelişmeler yaşanabilir.",
+    "image": "assets/tarot/knightofcups.jpeg"
+  },
+  {
+    "name": "Kupa Kraliçesi",
+    "description": "Kupa Kraliçesi, şefkatli, sezgisel ve anlayışlı bir kadını temsil eder. Bu kart, başkalarına karşı anlayış ve içsel dengeyi koruman gerektiğini hatırlatır.",
+    "image": "assets/tarot/queenofcups.jpeg"
+  },
+  {
+    "name": "Kupa Kralı",
+    "description": "Kupa Kralı, duygular üzerinde kontrol, olgunluk ve anlayış temsilidir. İçsel dengeyi sağlamak ve çevrendeki insanlara rehberlik etmek için sezgilerini kullanman gerektiğini gösterir.",
+    "image": "assets/tarot/kingofcups.jpeg"
+  },
+  {
+    "name": "Tılsım Ası",
+    "description": "Tılsım Ası, finansal fırsatlar, maddi kazançlar ve yeni başlangıçlar anlamına gelir. İş veya para konularında bereketli bir döneme giriyorsun.",
+    "image": "assets/tarot/aceofpentacles.jpeg"
+  },
+  {
+    "name": "Tılsım İkilisi",
+    "description": "Tılsım İkilisi, denge, uyum ve çoklu görevler arasında seçim yapma gerekliliğini simgeler. Zaman ve kaynaklarını dengeli şekilde yönetmen önemlidir.",
+    "image": "assets/tarot/twoofpentacles.jpeg"
+  },
+  {
+    "name": "Tılsım Üçlüsü",
+    "description": "Tılsım Üçlüsü, iş birliği, ekip çalışması ve becerilerin başkalarıyla birlikte değerlendirileceği bir süreci ifade eder. Ortak projelerde başarı sağlayabilirsin.",
+    "image": "assets/tarot/threeofpentacles.jpeg"
+  },
+  {
+    "name": "Tılsım Dörtlüsü",
+    "description": "Tılsım Dörtlüsü, maddi güvenliğe tutunma ve paylaşma korkusunu simgeler. Kaynaklarına sıkı sıkıya sarılmak yerine, akışı dengelemek gerekebilir.",
+    "image": "assets/tarot/fourofpentacles.jpeg"
+  },
+  
+  
+]
