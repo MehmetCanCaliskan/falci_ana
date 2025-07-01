@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import '../coin_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../services/fal_yorum_kutusu.dart';
 import 'dart:convert';
 import '../services/fal_servisi.dart';
 import '../home.dart'; // <- EKLENDİ: HomePage yönlendirmesi için

@@ -1,4 +1,4 @@
-import 'package:falci_ana/services/fal_yorum_kutusu.dart'; // <-- en üste alındı
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -12,12 +12,13 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  await FalYorumKutusu.yukle(); // JSON'dan yorumlar yüklensin
+
   final prefs = await SharedPreferences.getInstance();
   final hasUserInfo = prefs.containsKey('user_name') && prefs.containsKey('birth_date');
 
   runApp(MyApp(showUserInfoScreen: !hasUserInfo));
 }
+
 
 class MyApp extends StatelessWidget {
   final bool showUserInfoScreen;

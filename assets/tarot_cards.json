@@ -1,0 +1,392 @@
+[
+  {
+    "name": "The Fool",
+    "image": "assets/tarot/m00.jpg",
+    "description": "Freeing yourself from limitation"
+  },
+  {
+    "name": "The Magician",
+    "image": "assets/tarot/m01.jpg",
+    "description": "Taking appropriate action"
+  },
+  {
+    "name": "The High Priestess",
+    "image": "assets/tarot/m02.jpg",
+    "description": "Listening to your feelings and intuitions"
+  },
+  {
+    "name": "The Empress",
+    "image": "assets/tarot/m03.jpg",
+    "description": "Nurturing yourself and others"
+  },
+  {
+    "name": "The Emperor",
+    "image": "assets/tarot/m04.jpg",
+    "description": "Exercising authority"
+  },
+  {
+    "name": "The Hierophant",
+    "image": "assets/tarot/m05.jpg",
+    "description": "Teaching or guiding others"
+  },
+  {
+    "name": "The Lovers",
+    "image": "assets/tarot/m06.jpg",
+    "description": "Being in love"
+  },
+  {
+    "name": "The Chariot",
+    "image": "assets/tarot/m07.jpg",
+    "description": "Breaking through barriers"
+  },
+  {
+    "name": "Strength",
+    "image": "assets/tarot/m08.jpg",
+    "description": "Imposing restrictions on yourself for your own benefit"
+  },
+  {
+    "name": "The Hermit",
+    "image": "assets/tarot/m09.jpg",
+    "description": "Becoming or seeking out a guru"
+  },
+  {
+    "name": "Wheel of Fortune",
+    "image": "assets/tarot/m10.jpg",
+    "description": "Allowing events to unfold"
+  },
+  {
+    "name": "Justice",
+    "image": "assets/tarot/m11.jpg",
+    "description": "Making an objective decision"
+  },
+  {
+    "name": "The Hanged Man",
+    "image": "assets/tarot/m12.jpg",
+    "description": "Seeing growth opportunities in unpleasant events"
+  },
+  {
+    "name": "Death",
+    "image": "assets/tarot/m13.jpg",
+    "description": "Bringing an unpleasant phase of life to an end"
+  },
+  {
+    "name": "Temperance",
+    "image": "assets/tarot/m14.jpg",
+    "description": "Bringing opposites together"
+  },
+  {
+    "name": "The Devil",
+    "image": "assets/tarot/m15.jpg",
+    "description": "Appreciating the luxuries that life has to offer"
+  },
+  {
+    "name": "The Tower",
+    "image": "assets/tarot/m16.jpg",
+    "description": "Breaking out of old, confining habits and mindsets"
+  },
+  {
+    "name": "The Star",
+    "image": "assets/tarot/m17.jpg",
+    "description": "Hoping for the best"
+  },
+  {
+    "name": "The Moon",
+    "image": "assets/tarot/m18.jpg",
+    "description": "Enjoying healthy fantasies and daydreams"
+  },
+  {
+    "name": "The Sun",
+    "image": "assets/tarot/m19.jpg",
+    "description": "Seeing things clearly"
+  },
+  {
+    "name": "Judgement",
+    "image": "assets/tarot/m20.jpg",
+    "description": "Receiving a wake-up call"
+  },
+  {
+    "name": "The World",
+    "image": "assets/tarot/m21.jpg",
+    "description": "Having it all"
+  },
+  {
+    "name": "Ace of Cups",
+    "image": "assets/tarot/c01.jpg",
+    "description": "Trusting your feelings"
+  },
+  {
+    "name": "Two of Cups",
+    "image": "assets/tarot/c02.jpg",
+    "description": "Being drawn to someone"
+  },
+  {
+    "name": "Three of Cups",
+    "image": "assets/tarot/c03.jpg",
+    "description": "Celebrating your feelings or connections with others"
+  },
+  {
+    "name": "Four of Cups",
+    "image": "assets/tarot/c04.jpg",
+    "description": "Maintaining your emotional stability"
+  },
+  {
+    "name": "Five of Cups",
+    "image": "assets/tarot/c05.jpg",
+    "description": "Acknowledging loss and moving on"
+  },
+  {
+    "name": "Six of Cups",
+    "image": "assets/tarot/c06.jpg",
+    "description": "Donating your time and talents to others"
+  },
+  {
+    "name": "Seven of Cups",
+    "image": "assets/tarot/c07.jpg",
+    "description": "Motivating yourself with images of future success"
+  },
+  {
+    "name": "Eight of Cups",
+    "image": "assets/tarot/c08.jpg",
+    "description": "Wanting something better"
+  },
+  {
+    "name": "Nine of Cups",
+    "image": "assets/tarot/c09.jpg",
+    "description": "Being delighted with your own achievements"
+  },
+  {
+    "name": "Ten of Cups",
+    "image": "assets/tarot/c10.jpg",
+    "description": "Having more than you ever dreamed"
+  },
+  {
+    "name": "Page of Cups",
+    "image": "assets/tarot/c11.jpg",
+    "description": "Showing your emotions freely"
+  },
+  {
+    "name": "Knight of Cups",
+    "image": "assets/tarot/c12.jpg",
+    "description": "Being deeply committed to a cause"
+  },
+  {
+    "name": "Queen of Cups",
+    "image": "assets/tarot/c13.jpg",
+    "description": "Allowing yourself to be moved by the plight of others"
+  },
+  {
+    "name": "King of Cups",
+    "image": "assets/tarot/c14.jpg",
+    "description": "Keeping a stiff upper lip"
+  },
+  {
+    "name": "Ace of Swords",
+    "image": "assets/tarot/s01.jpg",
+    "description": "Making objective decisions"
+  },
+  {
+    "name": "Two of Swords",
+    "image": "assets/tarot/s02.jpg",
+    "description": "Refusing to make a decision without getting the facts"
+  },
+  {
+    "name": "Three of Swords",
+    "image": "assets/tarot/s03.jpg",
+    "description": "Being brave enough to see things as they really are"
+  },
+  {
+    "name": "Four of Swords",
+    "image": "assets/tarot/s04.jpg",
+    "description": "Thinking over your plans before putting them into action"
+  },
+  {
+    "name": "Five of Swords",
+    "image": "assets/tarot/s05.jpg",
+    "description": "Acting in your own best interest"
+  },
+  {
+    "name": "Six of Swords",
+    "image": "assets/tarot/s06.jpg",
+    "description": "Making the best of a bad situation"
+  },
+  {
+    "name": "Seven of Swords",
+    "image": "assets/tarot/s07.jpg",
+    "description": "Refusing to do something dishonest, even when there's no chance of ever being caught"
+  },
+  {
+    "name": "Eight of Swords",
+    "image": "assets/tarot/s08.jpg",
+    "description": "Honoring limits"
+  },
+  {
+    "name": "Nine of Swords",
+    "image": "assets/tarot/s09.jpg",
+    "description": "Refusing to worry about what you cannot control"
+  },
+  {
+    "name": "Ten of Swords",
+    "image": "assets/tarot/s10.jpg",
+    "description": "Seeing the signs that you've reached your limits"
+  },
+  {
+    "name": "Page of Swords",
+    "image": "assets/tarot/s11.jpg",
+    "description": "Pursuing a course of study"
+  },
+  {
+    "name": "Knight of Swords",
+    "image": "assets/tarot/s12.jpg",
+    "description": "Speaking your mind"
+  },
+  {
+    "name": "Queen of Swords",
+    "image": "assets/tarot/s13.jpg",
+    "description": "Exercising tact or using diplomacy"
+  },
+  {
+    "name": "King of Swords",
+    "image": "assets/tarot/s14.jpg",
+    "description": "Expressing yourself with firmness and authority"
+  },
+  {
+    "name": "Ace of Wands",
+    "image": "assets/tarot/w01.jpg",
+    "description": "Being inspired"
+  },
+  {
+    "name": "Two of Wands",
+    "image": "assets/tarot/w02.jpg",
+    "description": "Having a choice"
+  },
+  {
+    "name": "Three of Wands",
+    "image": "assets/tarot/w03.jpg",
+    "description": "Putting a plan into motion"
+  },
+  {
+    "name": "Four of Wands",
+    "image": "assets/tarot/w04.jpg",
+    "description": "Sharing in a great celebration"
+  },
+  {
+    "name": "Five of Wands",
+    "image": "assets/tarot/w05.jpg",
+    "description": "Calmly expressing a dissenting opinion"
+  },
+  {
+    "name": "Six of Wands",
+    "image": "assets/tarot/w06.jpg",
+    "description": "Outperforming your peers"
+  },
+  {
+    "name": "Seven of Wands",
+    "image": "assets/tarot/w07.jpg",
+    "description": "Refusing to be silenced through fear or intimidation"
+  },
+  {
+    "name": "Eight of Wands",
+    "image": "assets/tarot/w08.jpg",
+    "description": "Taking swift action"
+  },
+  {
+    "name": "Nine of Wands",
+    "image": "assets/tarot/w09.jpg",
+    "description": "Sticking with it for the duration"
+  },
+  {
+    "name": "Ten of Wands",
+    "image": "assets/tarot/w10.jpg",
+    "description": "Holding your own in extreme circumstances"
+  },
+  {
+    "name": "Page of Wands",
+    "image": "assets/tarot/w11.jpg",
+    "description": "Leaping at a new opportunity"
+  },
+  {
+    "name": "Knight of Wands",
+    "image": "assets/tarot/w12.jpg",
+    "description": "Charging ahead"
+  },
+  {
+    "name": "Queen of Wands",
+    "image": "assets/tarot/w13.jpg",
+    "description": "Paying close attention"
+  },
+  {
+    "name": "King of Wands",
+    "image": "assets/tarot/w14.jpg",
+    "description": "Putting old things together in new and exciting ways"
+  },
+  {
+    "name": "Ace of Pentacles",
+    "image": "assets/tarot/p01.jpg",
+    "description": "Outlining a plan for achieving prosperity"
+  },
+  {
+    "name": "Two of Pentacles",
+    "image": "assets/tarot/p02.jpg",
+    "description": "Weighing options"
+  },
+  {
+    "name": "Three of Pentacles",
+    "image": "assets/tarot/p03.jpg",
+    "description": "Finishing a project"
+  },
+  {
+    "name": "Four of Pentacles",
+    "image": "assets/tarot/p04.jpg",
+    "description": "Saving for a rainy day"
+  },
+  {
+    "name": "Five of Pentacles",
+    "image": "assets/tarot/p05.jpg",
+    "description": "Recognizing your needs and taking action to fulfill them"
+  },
+  {
+    "name": "Six of Pentacles",
+    "image": "assets/tarot/p06.jpg",
+    "description": "Giving time, money, or effort to a charity"
+  },
+  {
+    "name": "Seven of Pentacles",
+    "image": "assets/tarot/p07.jpg",
+    "description": "Measuring progress toward your goal"
+  },
+  {
+    "name": "Eight of Pentacles",
+    "image": "assets/tarot/p08.jpg",
+    "description": "Doing your best"
+  },
+  {
+    "name": "Nine of Pentacles",
+    "image": "assets/tarot/p09.jpg",
+    "description": "Investing time in learning or teaching a difficult task"
+  },
+  {
+    "name": "Ten of Pentacles",
+    "image": "assets/tarot/p10.jpg",
+    "description": "Celebrating your physical and financial blessings"
+  },
+  {
+    "name": "Page of Pentacles",
+    "image": "assets/tarot/p11.jpg",
+    "description": "Learning the value of a dollar"
+  },
+  {
+    "name": "Knight of Pentacles",
+    "image": "assets/tarot/p12.jpg",
+    "description": "Spending money wisely"
+  },
+  {
+    "name": "Queen of Pentacles",
+    "image": "assets/tarot/p13.jpg",
+    "description": "Appreciating fine food, fine wine, beautiful art, beautiful bodies, or any of the better things in life"
+  },
+  {
+    "name": "King of Pentacles",
+    "image": "assets/tarot/p14.jpg",
+    "description": "Becoming debt-free"
+  }
+]
