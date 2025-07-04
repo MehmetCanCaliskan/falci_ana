@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -13,7 +12,6 @@ class FanTarotPickerPage extends StatefulWidget {
 class _FanTarotPickerPageState extends State<FanTarotPickerPage> {
   List<Map<String, dynamic>> tarotCards = [];
   List<Map<String, dynamic>> selectedCards = [];
-  double rotationAngle = 0.0;
 
   @override
   void initState() {
@@ -50,79 +48,63 @@ class _FanTarotPickerPageState extends State<FanTarotPickerPage> {
 
   @override
   Widget build(BuildContext context) {
-    final fanCards = tarotCards.take(30).toList(); // Daha geniş yay için 30 kart
-
     return Scaffold(
       appBar: AppBar(title: const Text("Tarot Falı")),
+      backgroundColor: Colors.black,
       body: Column(
         children: [
           const SizedBox(height: 20),
-          // Üstte seçilen 3 kart yuvası
+          // Seçilen kartlar
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: List.generate(3, (index) {
                 final card = index < selectedCards.length ? selectedCards[index] : null;
                 return Container(
-                  width: 100,
-                  height: 150,
+                  width: 90,
+                  height: 140,
                   decoration: BoxDecoration(
-                    border: Border.all(color: Colors.white),
+                    border: Border.all(color: Colors.white70),
+                    borderRadius: BorderRadius.circular(8),
                   ),
                   child: card != null
                       ? Image.asset(card["image"], fit: BoxFit.cover)
-                      : Center(child: Text(["Geçmiş", "Şimdi", "Gelecek"][index])),
+                      : Center(
+                          child: Text(
+                            ["Geçmiş", "Şimdi", "Gelecek"][index],
+                            style: const TextStyle(color: Colors.white70),
+                          ),
+                        ),
                 );
               }),
             ),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 30),
+          // Kartlar scroll edilebilir
           Expanded(
-            child: GestureDetector(
-              onPanUpdate: (details) {
-                setState(() {
-                  rotationAngle += details.delta.dx * 0.01;
-                });
-              },
-              child: Center(
-                child: SizedBox(
-                  width: MediaQuery.of(context).size.width,
-                  height: 300,
-                  child: Stack(
-                    alignment: Alignment.center,
-                    children: fanCards.asMap().entries.map((entry) {
-                      final i = entry.key;
-                      final card = entry.value;
-                      final total = fanCards.length;
-                      final angleStep = pi / 1.5 / total;
-                      final angle = -pi / 3 + i * angleStep + rotationAngle;
-
-                      final radius = 300.0;
-                      final x = radius * cos(angle);
-                      final y = radius * sin(angle);
-
-                      return Positioned(
-                        left: x + MediaQuery.of(context).size.width / 2 - 40,
-                        top: y + 100,
-                        child: Transform.rotate(
-                          angle: angle - pi / 2,
-                          child: GestureDetector(
-                            onTap: () => _onCardSelected(card),
-                            child: Image.asset(
-                              "assets/tarot/tarot_card_back.png",
-                              width: 80,
-                              height: 120,
-                            ),
-                          ),
-                        ),
-                      );
-                    }).toList(),
-                  ),
-                ),
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.symmetric(horizontal: 40),
+              child: Row(
+                children: List.generate(tarotCards.length, (index) {
+                  final card = tarotCards[index];
+                  return Transform.translate(
+                    offset: Offset(-index * 40.0, 0),
+                    child: GestureDetector(
+                      onTap: () => _onCardSelected(card),
+                      child: Image.asset(
+                        "assets/tarot/tarot_card_back.png",
+                        width: 90,
+                        height: 140,
+                      ),
+                    ),
+                  );
+                }),
               ),
             ),
           ),
+          const SizedBox(height: 20),
         ],
       ),
     );
@@ -131,6 +113,7 @@ class _FanTarotPickerPageState extends State<FanTarotPickerPage> {
 
 class TarotResultPage extends StatelessWidget {
   final List<Map<String, dynamic>> selectedCards;
+
   const TarotResultPage({super.key, required this.selectedCards});
 
   @override
@@ -140,6 +123,7 @@ class TarotResultPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: const Text("Fal Sonucu")),
+      backgroundColor: Colors.black,
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: ListView.builder(
@@ -152,16 +136,18 @@ class TarotResultPage extends StatelessWidget {
             return Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("$position - ${card["name"]}",
-                    style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+                Text(
+                  "$position - ${card["name"]}",
+                  style: const TextStyle(color: Colors.white, fontSize: 20),
+                ),
                 const SizedBox(height: 8),
-                Image.asset(card["image"], width: 100),
+                Image.asset(card["image"], width: 120),
                 const SizedBox(height: 8),
                 Text(
-                  (card[key] is String ? card[key] : "Yorum bulunamadı."),
-                  style: const TextStyle(fontSize: 16),
+                  card[key] is String ? card[key] : "Yorum bulunamadı.",
+                  style: const TextStyle(color: Colors.white70),
                 ),
-                const Divider(height: 32),
+                const Divider(color: Colors.white24, height: 32),
               ],
             );
           },

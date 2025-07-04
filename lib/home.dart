@@ -6,7 +6,7 @@ import 'screens/watch_ad_page.dart';
 import 'screens/play_game_page.dart'; // import et
 import 'screens/kahve_fali.dart'; // Kahve Falı ekranını import ettik
 import 'screens/fallarim.dart';
-import 'screens/tarot_fali.dart';
+import 'screens/fan_tarot_picker.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> {
     } else if (title == 'Tarot Falı') {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (_) => const TarotFaliPage()),
+        MaterialPageRoute(builder: (_) => const FanTarotPickerPage()),
       );
     }
 

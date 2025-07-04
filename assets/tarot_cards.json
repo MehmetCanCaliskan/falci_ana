@@ -2,391 +2,547 @@
   {
     "name": "The Fool",
     "image": "assets/tarot/m00.jpg",
-    "description": "Freeing yourself from limitation"
+    "past": "Geçmişte, güvenli sularda yüzerek risk almaktan kaçındın. Konfor alanın seni korudu ama büyümene engel oldu. Yeni fırsatları keşfetmek yerine tanıdık olanlara sarıldın. Bu, cesaretini toplamanı zorlaştırdı.",
+    "present": "Şu anda, kalbinin rehberliğinde yepyeni bir yolculuğa adım atma şansın var. İçindeki merakı uyandır ve korkularını bir kenara bırak. Hayat seni beklenmedik maceralara çağırıyor, hazır ol!",
+    "future": "Gelecekte, cesur adımların seni hayal bile edemeyeceğin güzelliklere taşıyabilir. Özgürlüğüne sahip çıkarak ve akışa güvenerek, hayatında yeni kapılar açacaksın. Maceraya atıl, sürprizler seni bekliyor!"
   },
   {
     "name": "The Magician",
     "image": "assets/tarot/m01.jpg",
-    "description": "Taking appropriate action"
+    "past": "Geçmişte, yeteneklerinin farkına varmakta zorlandın. Potansiyelini tam anlamıyla kullanmadın, belki de kendine yeterince güvenmedin. Bu, bazı fırsatları kaçırmana neden oldu ama öğrenmen için bir adımdı.",
+    "present": "Şu anda, tüm araçlar elinde! Yaratıcılığını ve becerilerini kullanarak hayallerini gerçeğe dönüştürebilirsin. Odaklan ve iradeni göster; evren seninle iş birliği yapmaya hazır, şimdi harekete geç!",
+    "future": "Gelecekte, kararlılığın ve yaratıcı enerjin seni büyük başarılara taşıyacak. Hedeflerine ulaşmak için gereken her şeye sahipsin. Planlarını hayata geçir ve kendi mucizeni yarat, zafer seni bekliyor!"
   },
   {
     "name": "The High Priestess",
     "image": "assets/tarot/m02.jpg",
-    "description": "Listening to your feelings and intuitions"
+    "past": "Geçmişte, mantığına fazla yaslandın ve sezgilerini göz ardı ettin. İç sesini dinlemek yerine dışsal rehberlere yöneldin. Bu, bazı gerçekleri görmeni zorlaştırdı ama seni daha derin bir anlayışa hazırladı.",
+    "present": "Şu anda, içgüdülerine güvenmenin tam zamanı. Bilinçaltın sana yol gösteriyor; sessizce dinlersen doğru cevapları bulacaksın. Kalbinin rehberliğinde ilerle, sezgilerin seni yanıltmayacak.",
+    "future": "Gelecekte, sezgilerine kulak vererek en doğru kararları alabileceksin. İçsel bilgeliğin seni güçlü kılacak ve yolunu aydınlatacak. Kendine güven, derinliklerinde saklı olan hakikati keşfedeceksin."
   },
   {
     "name": "The Empress",
     "image": "assets/tarot/m03.jpg",
-    "description": "Nurturing yourself and others"
+    "past": "Geçmişte, kendine yeterince zaman ayırmadın ve ihtiyaçlarını ihmal ettin. Şefkat ve yaratıcılık yerine başkalarına öncelik verdin. Bu, içsel bereketini tam anlamıyla hissetmeni zorlaştırdı ama şimdi değişim zamanı.",
+    "present": "Şu anda, sevgi ve yaratıcılıkla hayatını zenginleştirebilirsin. Kendine şefkat göster, doğayla bağlantı kur ve yaratıcı projelere atıl. Çevrene bolluk yayarak mucizeler yaratma gücüne sahipsin!",
+    "future": "Gelecekte, sevgi dolu ilişkiler ve verimli projeler seni bekliyor. Şefkatin ve yaratıcı enerjin, çevrende güzellikler yaratacak. Hayatına bereket katmak için kalbinin rehberliğine güven, ödüller büyük olacak!"
   },
   {
     "name": "The Emperor",
     "image": "assets/tarot/m04.jpg",
-    "description": "Exercising authority"
+    "past": "Geçmişte, belirsizlikler ve plansızlık seni yordu. Kontrolü ele almak yerine olayların akışına kapıldın. Bu, hedeflerine ulaşmanı zorlaştırdı ama sana disiplinin önemini öğretti. Şimdi daha güçlüsün.",
+    "present": "Şu anda, hayatına düzen ve kararlılık katma zamanı. Hedeflerin için sağlam bir plan yap ve liderlik vasıflarını ortaya koy. Kontrol sende, adımlarını güvenle at, başarı seni bekliyor!",
+    "future": "Gelecekte, disiplinli yaklaşımların ve net planların seni büyük başarılara taşıyacak. İçindeki lideri kucakla ve sağlam temeller inşa et. Kararlılığın, hayallerini gerçeğe dönüştürecek, zafer senin olacak!"
   },
   {
     "name": "The Hierophant",
     "image": "assets/tarot/m05.jpg",
-    "description": "Teaching or guiding others"
+    "past": "Geçmişte, geleneklere veya rehberlere yeterince kulak vermedin. Kendi yolunu bulmaya çalışırken bazı değerli dersleri gözden kaçırdın. Bu, bağımsızlığını güçlendirdi ama bazen yalnız hissettirdi.",
+    "present": "Şu anda, bilgini paylaşarak veya bir mentordan öğrenerek büyüyebilirsin. Topluluğun ve ortak değerlerin gücünü kucakla. Bilgeliğe açık ol, rehberlik seni doğru yola taşıyacak.",
+    "future": "Gelecekte, rehber olduğun veya rehber bulduğun bir yolculuk seni bekliyor. Paylaşılan bilgelik, hayatına anlam katacak. Öğrenmeye ve öğretmeye devam et, bu seni güçlendirecek!"
   },
   {
     "name": "The Lovers",
     "image": "assets/tarot/m06.jpg",
-    "description": "Being in love"
+    "past": "Geçmişte, kararsızlık veya korkular yüzünden ilişkilerde veya seçimlerde zorlandın. Kalbinin sesini dinlemek yerine mantığına yaslandın, bu da bazı fırsatları kaçırmana neden oldu.",
+    "present": "Şu anda, kalbinin rehberliğinde kararlar alarak huzuru ve uyumu yakalayabilirsin. İlişkilerinde açık iletişim kur ve sevgiye güven. Kalbinin istediği yolda ilerle, mutluluk seni bekliyor.",
+    "future": "Gelecekte, kalpten aldığın kararlar seni derin bir huzura ve sevgiye taşıyacak. İlişkilerin veya kişisel seçimlerin uyum getirecek. Sevgiye güven, o sana en güzel yolu gösterecek."
   },
   {
     "name": "The Chariot",
     "image": "assets/tarot/m07.jpg",
-    "description": "Breaking through barriers"
+    "past": "Geçmişte, yönünü bulmakta zorlandın ve dağınıklık seni yavaşlattı. Hedeflerine ulaşmak için net bir plan yapmadın, bu da bazı engellerle karşılaşmana neden oldu.",
+    "present": "Şu anda, odaklanarak ve iradenle engelleri aşabilirsin. Kontrolü ele al ve hedeflerine kararlılıkla ilerle. Disiplinli adımların seni başarıya taşıyacak, şimdi harekete geç!",
+    "future": "Gelecekte, kararlılığın ve net planların seni büyük zaferlere ulaştıracak. Engellerin üstesinden gelerek hedeflerine ulaşacaksın. İradene güven, başarı senin olacak!"
   },
   {
     "name": "Strength",
     "image": "assets/tarot/m08.jpg",
-    "description": "Imposing restrictions on yourself for your own benefit"
+    "past": "Geçmişte, sabrın ve cesaretin sık sık sınandı. Zorluklar karşısında direnç göstermek zorunda kaldın, bu da içsel gücünü keşfetmene yardımcı oldu ama yorucuydu.",
+    "present": "Şu anda, sakin kalarak ve kendine güvenerek her zorluğu aşabilirsin. Nazik ama kararlı bir yaklaşımla gücünü ortaya koy. İçindeki cesaret, seni her zaman destekliyor.",
+    "future": "Gelecekte, kendine olan inancın ve sabrın seni yeni zirvelere taşıyacak. Zorlukları nazikçe ama kararlılıkla aşacaksın. İçsel gücün, en güzel başarılarının anahtarı olacak."
   },
   {
     "name": "The Hermit",
     "image": "assets/tarot/m09.jpg",
-    "description": "Becoming or seeking out a guru"
+    "past": "Geçmişte, dış dünyaya fazla odaklanarak içsel yolculuğunu ihmal ettin. Sessizce kendine dönmek yerine dışsal gürültüye kapıldın, bu da bazı cevapları bulmanı zorlaştırdı.",
+    "present": "Şu anda, içe dönerek ve kendine zaman ayırarak bilgelik bulabilirsin. Sessizlikte cevaplar seni bekliyor. Meditasyon veya yalnızlık, iç sesini netleştirecek, dinle!",
+    "future": "Gelecekte, kendi ışığınla yolunu aydınlatacaksın. İçsel keşiflerin, sana derin bir anlayış ve huzur getirecek. Kendine güven, bilgelik yolculuğun seni güçlendirecek."
   },
   {
     "name": "Wheel of Fortune",
     "image": "assets/tarot/m10.jpg",
-    "description": "Allowing events to unfold"
+    "past": "Geçmişte, olayları kontrol etmeye çalıştın ama hayatın döngüsel doğasını kabullenmekte zorlandın. Bazı değişimlere direndin, bu da seni yordu ama önemli dersler öğretti.",
+    "present": "Şu anda, evrenin sunduğu değişimlere kucak açmalısın. Akışa güven ve beklenmedik fırsatları değerlendir. Hayatın döngüsü seni yeni başlangıçlara taşıyor, değişime hazır ol!",
+    "future": "Gelecekte, beklenmedik fırsatlar ve değişimler seni güzelliklere ulaştıracak. Hayatın akışına güvenerek, yeni kapılar açacaksın. Esnek ol, evren senin yanında çalışacak!"
   },
   {
     "name": "Justice",
     "image": "assets/tarot/m11.jpg",
-    "description": "Making an objective decision"
+    "past": "Geçmişte, haksızlıklar veya dengesizliklerle karşılaştın. Kararlarında tarafsız kalmak zor oldu, bu da seni vicdan muhasebesine yöneltti ama adalete olan inancını güçlendirdi.",
+    "present": "Şu anda, dürüst ve bilinçli kararlarla hayatını dengeye oturtabilirsin. Vicdanının sesini dinle ve adil ol. Bu, sana içsel huzur ve netlik getirecek.",
+    "future": "Gelecekte, adaletli yaklaşımın sana başarı ve huzur getirecek. Dürüstlüğün, ilişkilerinde ve hedeflerinde sağlam bir temel oluşturacak. Vicdanın rehberliğinde ilerle, ödüller seni bekliyor."
   },
   {
     "name": "The Hanged Man",
     "image": "assets/tarot/m12.jpg",
-    "description": "Seeing growth opportunities in unpleasant events"
+    "past": "Geçmişte, kontrolü bırakmakta zorlandın ve olaylara tek bir açıdan baktın. Bu, bazı fırsatları kaçırmana neden oldu ama sabrın önemini anlamanı sağladı.",
+    "present": "Şu anda, farklı bir bakış açısıyla olaylara bakarak büyüyebilirsin. Akışa teslim ol ve sabırlı ol; yeni perspektifler sana ilham verecek ve yolunu açacak.",
+    "future": "Gelecekte, sabrın ve yeni bakış açıların seni daha bilge kılacak. Bu deneyimler, kararlarında netlik ve derinlik getirecek. Farklı yolları keşfet, bilgelik seni bekliyor."
   },
   {
     "name": "Death",
     "image": "assets/tarot/m13.jpg",
-    "description": "Bringing an unpleasant phase of life to an end"
+    "past": "Geçmişte, eski alışkanlıklara veya durumlara tutundun, bu da değişimi zorlaştırdı. Bırakman gereken şeyleri tutmak seni yordu ama dönüşümün kapısını araladı.",
+    "present": "Şu anda, bir döngüyü tamamlayarak yepyeni bir başlangıç yapma fırsatın var. Eski yüklerden kurtul ve yenilenmeye kucak aç. Bu, seni özgürleştirecek ve güçlendirecek.",
+    "future": "Gelecekte, bu dönüşüm seni daha özgün ve güçlü bir versiyonuna taşıyacak. Yeni başlangıçlar, hayatına tazelik ve anlam katacak. Değişimi kucakla, güzellikler seni bekliyor."
   },
   {
     "name": "Temperance",
     "image": "assets/tarot/m14.jpg",
-    "description": "Bringing opposites together"
+    "past": "Geçmişte, dengesizlikler veya aşırılıklar yaşadın. Hayatında uyum bulmakta zorlandın, bu da seni sabırlı olmaya ve dengeyi aramaya yöneltti.",
+    "present": "Şu anda, farklı yönlerini birleştirerek hayatını harmoniye kavuşturabilirsin. Sabırlı ve ılımlı bir yaklaşımla her şey yoluna girecek. Dengeyi bul, huzur seni bekliyor.",
+    "future": "Gelecekte, içsel huzurun ve dengeli yaklaşımın seni yeni fırsatlara taşıyacak. Sabrın, ilişkilerinde ve hedeflerinde uyum yaratacak. Dengeli adımlarla ilerle, başarı senin olacak."
   },
   {
     "name": "The Devil",
     "image": "assets/tarot/m15.jpg",
-    "description": "Appreciating the luxuries that life has to offer"
+    "past": "Geçmişte, kendini fazla kısıtladın ve hayatın keyifli yönlerini göz ardı ettin. Zevk aldığın şeylerden uzak durmak, enerjini düşürdü ama özgürlüğün değerini anlamanı sağladı.",
+    "present": "Şu anda, tutkularını özgürce ifade ederek mutluluğu kucaklayabilirsin. Kendine zevk aldığın şeylere izin ver; dans et, yaratıcı ol veya keyifli bir an yaşa. Özgürsün!",
+    "future": "Gelecekte, kendine sadık kalarak daha fazla neşe ve tatmin bulacaksın. Tutkuların seni özgürleştirecek ve hayatına renk katacak. Keyfi kucakla, güzellikler seni bekliyor!"
   },
   {
     "name": "The Tower",
     "image": "assets/tarot/m16.jpg",
-    "description": "Breaking out of old, confining habits and mindsets"
+    "past": "Geçmişte, eski alışkanlıklara veya inançlara sıkı sıkıya tutundun. Bu, değişimi zorlaştırdı ve seni sınırladı, ama aynı zamanda yenilenme ihtiyacını fark etmeni sağladı.",
+    "present": "Şu anda, seni kısıtlayan kalıpları yıkarak özgürleşebilirsin. Eski düşünceleri bırak ve yeni bir vizyon yarat. Bu değişim, seni daha güçlü ve özgün kılacak.",
+    "future": "Gelecekte, bu özgürleşme sana yepyeni kapılar açacak. Eski yüklerden kurtularak daha net ve güçlü bir yol çizeceksin. Değişimi kucakla, özgürlük seni bekliyor!"
   },
   {
     "name": "The Star",
     "image": "assets/tarot/m17.jpg",
-    "description": "Hoping for the best"
+    "past": "Geçmişte, zor zamanlar veya kayıplar yaşadın. Bu seni yordu ama aynı zamanda içindeki umudu ve direnci güçlendirdi. Artık iyileşme yolunda ilerliyorsun.",
+    "present": "Şu anda, içindeki ışığı takip ederek hayallerine ulaşabilirsin. Umutla dol ve pozitif düşün. Evren sana destek oluyor, güzel günler kapıda, yola devam et!",
+    "future": "Gelecekte, inancın ve pozitif enerjin seni mucizelere taşıyacak. Hayallerin gerçeğe dönüşecek ve içsel ışığın yolunu aydınlatacak. Umutla ilerle, başarı senin olacak!"
   },
   {
     "name": "The Moon",
     "image": "assets/tarot/m18.jpg",
-    "description": "Enjoying healthy fantasies and daydreams"
+    "past": "Geçmişte, mantığa fazla odaklanarak sezgilerini ihmal ettin. Hayal gücüne alan tanımadın, bu da bazı gerçekleri görmeni zorlaştırdı ama içsel yolculuğunu başlattı.",
+    "present": "Şu anda, içsel dünyana dalarak yaratıcı ilhamlar bulabilirsin. Sezgilerine güven ve hayallerine alan tanı. Bilinçaltın sana rehberlik ediyor, onu dinle ve keşfet!",
+    "future": "Gelecekte, yaratıcı enerjin ve sezgilerin seni yeni ufuklara taşıyacak. İç dünyan, sana en güzel yolları gösterecek. Hayallerine güven, ilham seni bekliyor!"
   },
   {
     "name": "The Sun",
     "image": "assets/tarot/m19.jpg",
-    "description": "Seeing things clearly"
+    "past": "Geçmişte, belirsizlikler veya karanlık anlar yaşadın. Bu, seni zaman zaman yavaşlattı ama içindeki neşeyi ve gücü yeniden keşfetmen için bir fırsattı.",
+    "present": "Şu anda, hayatındaki güzellikleri fark ederek neşeyi kucaklayabilirsin. Her şeyi net görüyorsun; pozitif enerjinle parılda! Küçük zaferleri kutla, mutluluk seninle.",
+    "future": "Gelecekte, kendine güvenin ve pozitif enerjin seni büyük başarılara taşıyacak. Hayatın sana sunduğu ışığı kucakla, neşe ve berraklık her zaman seninle olacak!"
   },
   {
     "name": "Judgement",
     "image": "assets/tarot/m20.jpg",
-    "description": "Receiving a wake-up call"
+    "past": "Geçmişte, kendi değerini tam anlamıyla göremedin veya iç sesini bastırdın. Kendini ifade etmekte zorlandın, bu da bazı fırsatları kaçırmana neden oldu ama seni güçlendirdi.",
+    "present": "Şu anda, içsel bir uyanışla gerçek amacını keşfedebilirsin. Kalbinin sesini dinle ve yeni bir başlangıç yap. Kendi değerini kucakla, dönüşüm seni bekliyor!",
+    "future": "Gelecekte, bu farkındalık seni özgüvene ve büyük başarılara taşıyacak. Gerçek yolunu bulacak, hedeflerine cesaretle ilerleyeceksin. İçsel çağrıya güven, zafer senin olacak!"
   },
   {
     "name": "The World",
     "image": "assets/tarot/m21.jpg",
-    "description": "Having it all"
+    "past": "Geçmişte, zorluklar ve engellerle karşılaştın. Çabaların bazen fark edilmedi ama her deneyim seni daha bilge ve güçlü kıldı, bugünkü başarının temelini attı.",
+    "present": "Şu anda, çabalarının meyvesini topluyor ve hayatında bütünlüğü hissediyorsun. Başarılarını kutla, her şey bir araya geliyor! Bu an, senin zafer anın, tadını çıkar.",
+    "future": "Gelecekte, bu bütünlük hissi sana yeni kapılar açacak. Deneyimlerin, seni daha büyük başarılara taşıyacak. Hayatın döngüsünü kucakla, her şey senin lehine işleyecek."
   },
   {
     "name": "Ace of Cups",
     "image": "assets/tarot/c01.jpg",
-    "description": "Trusting your feelings"
+    "past": "Geçmişte, duygularını bastırdın veya kalbinin sesini dinlemekte zorlandın. Bu, bazı duygusal fırsatları kaçırmana neden oldu ama içsel bağlantını güçlendirdi.",
+    "present": "Şu anda, kalbinle bağlantı kurarak yeni bir duygusal yolculuğa çıkabilirsin. Sevgiye ve ilhama açık ol, sezgilerin sana yol gösterecek. Kalbini aç, mucizeler seni bekliyor!",
+    "future": "Gelecekte, duygusal açıklığın sana huzur ve neşe getirecek. Yeni başlangıçlar, hayatını sevgiyle dolduracak. Kalbinin rehberliğine güven, güzel anlar seni bekliyor."
   },
   {
     "name": "Two of Cups",
     "image": "assets/tarot/c02.jpg",
-    "description": "Being drawn to someone"
+    "past": "Geçmişte, yalnızlık veya uyumsuzluk hissettin. İlişkilerde veya projelerde derin bağlar kurmakta zorlandın, bu da seni daha güçlü bağlar aramaya itti.",
+    "present": "Şu anda, bir kişiyle veya fikirle güçlü bir bağ kurma fırsatın var. Açık iletişim ve sevgiyle uyum yarat. İş birliği seni güçlendirecek, bu bağı kucakla!",
+    "future": "Gelecekte, bu derin bağlar seni daha mutlu ve güçlü kılacak. Sevgiye dayalı ilişkiler ve ortaklıklar, hayatına anlam katacak. Güvenle ilerle, sevgi kazanacak."
   },
   {
     "name": "Three of Cups",
     "image": "assets/tarot/c03.jpg",
-    "description": "Celebrating your feelings or connections with others"
+    "past": "Geçmişte, yalnız zamanlar geçirdin veya toplulukla bağ kurmakta zorlandın. Bu, dostluğun ve paylaşımın değerini anlamanı sağladı, seni bugüne hazırladı.",
+    "present": "Şu anda, sevdiklerinle bir araya gelerek neşeyi paylaşabilirsin. Dostluk ve kutlama zamanı! Topluluğun enerjisi seni canlandıracak, bu anı yaşa ve gülümse.",
+    "future": "Gelecekte, bu neşeli anlar ve dostluklar sana ilham verecek. Sevdiklerinle kurduğun bağlar, hayatını zenginleştirecek. Birlikte kutla, mutluluk seni güçlendirecek!"
   },
   {
     "name": "Four of Cups",
     "image": "assets/tarot/c04.jpg",
-    "description": "Maintaining your emotional stability"
+    "past": "Geçmişte, dış etkenler veya beklentiler seni duygusal olarak yordu. Kendi ihtiyaçlarını ihmal ettin, bu da içsel huzurunu bulmanı zorlaştırdı ama öz farkındalığını artırdı.",
+    "present": "Şu anda, iç dünyana dönerek duygularını dengeleyebilirsin. Kendi ihtiyaçlarına odaklan ve sakinliği kucakla. Meditasyon veya yalnız zaman, sana huzur ve netlik getirecek.",
+    "future": "Gelecekte, bu içsel denge seni daha bilinçli ve güçlü kılacak. Kendi ritmini bulacak, kararlarında daha emin olacaksın. Huzuru seç, sağlam bir temel seni bekliyor."
   },
   {
     "name": "Five of Cups",
     "image": "assets/tarot/c05.jpg",
-    "description": "Acknowledging loss and moving on"
+    "past": "Geçmişte, hayal kırıklıkları veya kayıplar yaşadın. Bunlar seni üzdü ama aynı zamanda dayanıklılığını artırdı. Geride kalanlara odaklanmak, yeni fırsatları görmeni zorlaştırdı.",
+    "present": "Şu anda, geçmişi geride bırakıp önündeki güzelliklere odaklanabilirsin. Kaybettiklerinden çok, sahip olduklarına bak. Pozitif bir bakış açısı, sana umut ve güç verecek.",
+    "future": "Gelecekte, bu olumlu yaklaşım seni yeni maceralara ve fırsatlara taşıyacak. Her kayıp, yeni bir başlangıç getirecek. Umutla ilerle, güzel günler seni bekliyor!"
   },
   {
     "name": "Six of Cups",
     "image": "assets/tarot/c06.jpg",
-    "description": "Donating your time and talents to others"
+    "past": "Geçmişte, güzel anılara özlem duydun veya yalnız hissettin. Paylaşım ve dostluk eksikliği, seni nostaljik bir ruh haline soktu ama bağ kurma isteğini güçlendirdi.",
+    "present": "Şu anda, sevdiklerinle veya topluluğunla bağ kurarak neşeyi çoğaltabilirsin. Anıları canlandır ve cömert ol. Paylaşımın getirdiği mutluluk, kalbini ısıtacak.",
+    "future": "Gelecekte, bu paylaşımlar ve bağlar sana daha fazla sevgi getirecek. Dostlukların ve içten anlar, hayatını zenginleştirecek. Sevgiyi paylaş, neşe seni bulacak!"
   },
   {
     "name": "Seven of Cups",
     "image": "assets/tarot/c07.jpg",
-    "description": "Motivating yourself with images of future success"
+    "past": "Geçmişte, çok fazla seçenek arasında kararsız kaldın. Hayallerin dağıldı, bu da odaklanmanı zorlaştırdı ama sana ne istediğini anlaman için bir fırsat sundu.",
+    "present": "Şu anda, hayallerinle motive olup vizyonunu netleştirebilirsin. Gerçekten ne istediğine odaklan ve ilhamı kucakla. Hayal panosu veya plan, seni hedeflerine yaklaştıracak.",
+    "future": "Gelecekte, bu netlik ve ilham seni büyük başarılara taşıyacak. Hayallerin gerçeğe dönüşecek, yeter ki odaklan. İlhamına güven, yolun açık olacak!"
   },
   {
     "name": "Eight of Cups",
     "image": "assets/tarot/c08.jpg",
-    "description": "Wanting something better"
+    "past": "Geçmişte, bazı şeyler seni tatmin etmedi ve huzursuz hissettin. Eski yollara tutunmak, gerçek potansiyelini görmeni engelledi ama yeni bir arayışa hazırlanmanı sağladı.",
+    "present": "Şu anda, kalbinin çağırdığı yeni bir yolculuğa adım atabilirsin. Tatmin etmeyen şeyleri geride bırak ve cesaretle ilerle. Bu arayış, sana huzur ve anlam katacak.",
+    "future": "Gelecekte, bu cesur adımlar seni daha tatmin edici bir hayata taşıyacak. Gerçek yolunu bulacak, kalbinin rehberliğinde huzuru yakalayacaksın. İlerle, güzellikler seni bekliyor!"
   },
   {
     "name": "Nine of Cups",
     "image": "assets/tarot/c09.jpg",
-    "description": "Being delighted with your own achievements"
+    "past": "Geçmişte, hedeflerin için çok çalıştın ve bazı zorluklarla karşılaştın. Çabaların bazen gölgede kaldı, ama bu seni daha kararlı ve güçlü kıldı.",
+    "present": "Şu anda, çabalarının meyvesini toplayarak memnuniyeti yaşayabilirsin. Kendi başarılarını kutla ve neşeyi kucakla. Bu an, senin mutluluğun için, tadını çıkar!",
+    "future": "Gelecekte, bu neşe ve kendine güven seni yeni zaferlere taşıyacak. Memnuniyetin, daha büyük başarıların kapısını açacak. Kendi mutluluğuna odaklan, ödüller seni bekliyor!"
   },
   {
     "name": "Ten of Cups",
     "image": "assets/tarot/c10.jpg",
-    "description": "Having more than you ever dreamed"
+    "past": "Geçmişte, yalnızlık veya kopukluk hissettin. Sevdiklerinle bağ kurmakta zorlandın, ama bu, gerçek anlamda uyumun değerini anlamanı sağladı.",
+    "present": "Şu anda, sevdiklerinle paylaştığın mutlulukla hayatını zenginleştirebilirsin. Aile ve dostlarla bir araya gel, sevgiyi kutla. Bu bağlar, sana huzur ve neşe verecek.",
+    "future": "Gelecekte, bu sevgi dolu bağlar seni daha mutlu ve bütün kılacak. Paylaşılan anlar, hayatını bollukla dolduracak. Sevgiye sarıl, uyum seni bekliyor!"
   },
   {
     "name": "Page of Cups",
     "image": "assets/tarot/c11.jpg",
-    "description": "Showing your emotions freely"
+    "past": "Geçmişte, duygularını ifade etmekte çekingen davrandın. Kendini geri çektin, bu da bazı ilham fırsatlarını kaçırmana neden oldu ama içsel merakını uyandırdı.",
+    "present": "Şu anda, duygularını özgürce ifade ederek yaratıcılığını canlandırabilirsin. İçindeki çocuksuluğu kucakla ve ilhama açık ol. Kalbin, sana yeni yollar gösterecek.",
+    "future": "Gelecekte, bu duygusal açıklık seni yeni fırsatlara ve yaratıcı başarılara taşıyacak. Merakın ve içtenliğin, hayatını renklendirecek. Kalbine güven, ilham seni bulacak!"
   },
   {
     "name": "Knight of Cups",
     "image": "assets/tarot/c12.jpg",
-    "description": "Being deeply committed to a cause"
+    "past": "Geçmişte, tutkularını veya hayallerini erteledin. İdeallerine ulaşmak için cesaret eksikliği hissettin, ama bu seni daha kararlı olmaya hazırladı.",
+    "present": "Şu anda, kalbinin peşinden giderek bir hedefe veya ideale ulaşabilirsin. Tutkunu ve romantizmini kucakla. Kararlı adımlarla hayallerine doğru ilerle, şimdi tam zamanı!",
+    "future": "Gelecekte, bu tutku ve idealizm seni anlamlı başarılara taşıyacak. Kalbinin rehberliğinde ilerledikçe, hayatın sana güzellikler sunacak. Tutkuna sadık kal, zafer senin!"
   },
   {
     "name": "Queen of Cups",
     "image": "assets/tarot/c13.jpg",
-    "description": "Allowing yourself to be moved by the plight of others"
+    "past": "Geçmişte, kendi duygusal ihtiyaçlarını ihmal ettin ve başkalarına öncelik verdin. Bu, seni yordu ama şefkatinin gücünü fark etmeni sağladı.",
+    "present": "Şu anda, şefkat ve sezgilerinle hem kendine hem başkalarına destek olabilirsin. Kalbinle bağlantı kur, bu seni huzura taşıyacak. Sevgin, etrafına ışık saçıyor.",
+    "future": "Gelecekte, bu sevgi dolu yaklaşım sana güçlü bağlar ve derin huzur getirecek. Şefkatin, ilişkilerini ve hayatını zenginleştirecek. Kalbinle ilerle, mucizeler seni bekliyor!"
   },
   {
     "name": "King of Cups",
     "image": "assets/tarot/c14.jpg",
-    "description": "Keeping a stiff upper lip"
+    "past": "Geçmişte, duygusal dalgalanmalar yaşadın ve dengeyi bulmakta zorlandın. Bu seni yordu ama duygusal olgunluğunu geliştirdi, içsel gücünü keşfetmene yardımcı oldu.",
+    "present": "Şu anda, duygularını dengede tutarak sakin bir liderlik sergileyebilirsin. İçsel huzurunla başkalarına rehber ol. Bilgeliğin ve şefkatin, seni güçlü kılıyor, bunu kullan!",
+    "future": "Gelecekte, bu duygusal denge seni başarıya ve saygıya taşıyacak. Sakin gücün, ilişkilerde ve hedeflerde sağlam bir temel oluşturacak. Bilgeliğine güven, zafer senin!"
   },
   {
     "name": "Ace of Swords",
     "image": "assets/tarot/s01.jpg",
-    "description": "Making objective decisions"
+    "past": "Geçmişte, kararsızlık veya belirsizlik seni yavaşlattı. Gerçekleri görmek yerine kafa karışıklığına kapıldın, ama bu seni zihinsel netlik aramaya yöneltti.",
+    "present": "Şu anda, zihinsel berraklıkla objektif kararlar alabilirsin. Hakikati ara ve net düşün. Zihninin gücü, yolunu aydınlatacak; şimdi cesurca harekete geç!",
+    "future": "Gelecekte, bu berraklık sana büyük başarılar getirecek. Net kararların, hedeflerine ulaşmanı sağlayacak. Gerçeğe sadık kal, özgürlük ve zafer seni bekliyor!"
   },
   {
     "name": "Two of Swords",
     "image": "assets/tarot/s02.jpg",
-    "description": "Refusing to make a decision without getting the facts"
+    "past": "Geçmişte, aceleci kararlar veya bilgi eksikliği seni zorladı. Gerçekleri tam göremedin, bu da dengeyi bulmanı engelledi ama bilinçli olmayı öğretti.",
+    "present": "Şu anda, bilgiye dayalı seçimlerle içsel huzuru yakalayabilirsin. Sakin kal ve gerçekleri araştır. Bilinçli kararların, seni doğru yola taşıyacak, güvenle ilerle!",
+    "future": "Gelecekte, bu bilinçli yaklaşım seni güçlü ve doğru kararlara yönlendirecek. Dengen ve netliğin, başarıyı getirecek. Gerçeklere sadık kal, yolun açık olacak!"
   },
   {
     "name": "Three of Swords",
     "image": "assets/tarot/s03.jpg",
-    "description": "Being brave enough to see things as they really are"
+    "past": "Geçmişte, bazı gerçeklerden kaçındın veya duygusal yaralarla karşılaştın. Bu seni üzdü ama cesaretle yüzleşme gerekliliğini anlamanı sağladı, güçlendirdi.",
+    "present": "Şu anda, olaylara dürüstçe bakarak içsel gücünü keşfedebilirsin. Gerçekleri kabul et ve cesur ol. Bu açıklık, seni özgürleştirecek ve yolunu netleştirecek.",
+    "future": "Gelecekte, bu cesaret ve dürüstlük seni daha güçlü kılacak. Gerçeklerle yüzleşmek, sana huzur ve yeni başlangıçlar getirecek. Cesur ol, özgürlük seni bekliyor!"
   },
   {
     "name": "Four of Swords",
     "image": "assets/tarot/s04.jpg",
-    "description": "Thinking over your plans before putting them into action"
+    "past": "Geçmişte, fazla çaba veya stres seni yordu. Dinlenmeyi ihmal ettin, bu da zihinsel netliğini kaybetmene neden oldu ama sakinliğin önemini öğretti.",
+    "present": "Şu anda, dinlenerek ve plan yaparak gücünü toplayabilirsin. Sakinlik, zihnine netlik getirecek. Mola ver, meditasyon yap; bu seni yeniden canlandıracak!",
+    "future": "Gelecekte, bu hazırlık ve sakinlik seni hedeflerine taşıyacak. Zihinsel gücün ve planlı yaklaşımın, başarıyı getirecek. Dinlenmeye devam et, zafer seni bekliyor!"
   },
   {
     "name": "Five of Swords",
     "image": "assets/tarot/s05.jpg",
-    "description": "Acting in your own best interest"
+    "past": "Geçmişte, başkalarına fazla öncelik verdin ve kendi ihtiyaçlarını ihmal ettin. Bu, özgüvenini gölgede bıraktı ama kendi değerini anlamanı sağladı.",
+    "present": "Şu anda, kendi hedeflerin için cesurca adım atabilirsin. Özgüvenini kucakla ve kendi yolunu çiz. İhtiyaçlarına odaklan, bu seni güçlendirecek ve ileriye taşıyacak!",
+    "future": "Gelecekte, bu özgüven seni büyük başarılara ulaştıracak. Kendi değerine sadık kalarak, hedeflerine ulaşacaksın. Cesur ol, kendi yolun seni zaferlere taşıyacak!"
   },
   {
     "name": "Six of Swords",
     "image": "assets/tarot/s06.jpg",
-    "description": "Making the best of a bad situation"
+    "past": "Geçmişte, zorluklar ve belirsizlikler seni yordu. Eski yükler taşıdın, ama bu, değişim ve iyileşme ihtiyacını fark etmeni sağladı.",
+    "present": "Şu anda, yeni bir başlangıç yaparak huzura doğru yol alabilirsin. Geçmişi geride bırak ve sakin bir limana ilerle. Bu geçiş, seni yenileyecek ve güçlendirecek.",
+    "future": "Gelecekte, bu yolculuk sana yeni fırsatlar ve huzur getirecek. Değişimi kucakladıkça, hayatın sana sunduğu güzellikleri keşfedeceksin. İlerle, sakin sular seni bekliyor!"
   },
   {
     "name": "Seven of Swords",
     "image": "assets/tarot/s07.jpg",
-    "description": "Refusing to do something dishonest, even when there's no chance of ever being caught"
+    "past": "Geçmişte, kısa yollar aradın veya dürüstlüğünden ödün verdin. Bu, güven eksikliğine yol açtı ama zekanı ve değerlerini yeniden değerlendirmeni sağladı.",
+    "present": "Şu anda, dürüstlüğe ve zekana güvenerek yaratıcı çözümler bulabilirsin. Kendi değerlerinle uyumlu hareket et. Bu yaklaşım, seni netlik ve başarıya taşıyacak.",
+    "future": "Gelecekte, dürüst ve zeki yaklaşımın sana saygı ve güven kazandıracak. Doğru yolda ilerledikçe, hedeflerin gerçekleşecek. Zekana güven, doğruluk seni ödüllendirecek!"
   },
   {
     "name": "Eight of Swords",
     "image": "assets/tarot/s08.jpg",
-    "description": "Honoring limits"
+    "past": "Geçmişte, kendini sınırlanmış hissettin ve korkulara kapıldın. Bu, özgürlüğünü kısıtladı ama zihninin gücünü fark etmene yardımcı oldu.",
+    "present": "Şu anda, kendi gücünü fark ederek kısıtlamalardan kurtulabilirsin. Zihinsel berraklıkla sınırlarını aş. Yeni bir bakış açısı, seni özgürleştirecek ve yolunu açacak!",
+    "future": "Gelecekte, bu farkındalık seni tamamen özgür kılacak. Kendi gücünle sınırları yıkacak, yeni fırsatlar keşfedeceksin. Zihnini özgür bırak, özgürlük seni bekliyor!"
   },
   {
     "name": "Nine of Swords",
     "image": "assets/tarot/s09.jpg",
-    "description": "Refusing to worry about what you cannot control"
+    "past": "Geçmişte, endişeler ve kontrol edemediğin düşünceler seni yordu. Zihinsel karmaşa, huzurunu gölgeledi ama içsel gücünü keşfetmene olanak sağladı.",
+    "present": "Şu anda, kontrol edemediğin şeyleri bırakarak zihnini özgürleştirebilirsin. Sakin bir zihinle odaklan; meditasyon veya yazı, sana netlik getirecek. Huzur sende!",
+    "future": "Gelecekte, bu zihinsel berraklık seni daha güçlü ve huzurlu kılacak. Endişeleri geride bırakarak hedeflerine ulaşacaksın. Zihnine güven, sakinlik seni güçlendirecek!"
   },
   {
     "name": "Ten of Swords",
     "image": "assets/tarot/s10.jpg",
-    "description": "Seeing the signs that you've reached your limits"
+    "past": "Geçmişte, zorlayıcı durumlar veya hayal kırıklıkları yaşadın. Bu yükler seni yordu ama aynı zamanda sınırlarını ve gücünü fark etmeni sağladı.",
+    "present": "Şu anda, eski yüklerden kurtularak zihnini özgürleştirebilirsin. Bir döngüyü tamamla ve yenilenmeye kucak aç. Bu dönüşüm, sana berraklık ve huzur getirecek.",
+    "future": "Gelecekte, bu yenilenme seni özgürlüğe ve yeni başlangıçlara taşıyacak. Sınırlarını aştıkça, daha güçlü bir yol bulacaksın. Geçmişi bırak, özgürlük seni bekliyor!"
   },
   {
     "name": "Page of Swords",
     "image": "assets/tarot/s11.jpg",
-    "description": "Pursuing a course of study"
+    "past": "Geçmişte, öğrenmeye veya yeni bilgilere yeterince zaman ayırmadın. Merakın bazen gölgede kaldı, ama bu seni keşfetmeye daha istekli kıldı.",
+    "present": "Şu anda, yeni bir beceri veya bilgi edinerek zihnini zenginleştirebilirsin. Merakını kucakla ve araştır. Bu öğrenme, seni yeni ufuklara taşıyacak!",
+    "future": "Gelecekte, bu öğrenme tutkun seni daha güçlü ve bilgili kılacak. Yeni bilgiler, hedeflerine ulaşmanı sağlayacak. Merakına güven, bilgi seni güçlendirecek!"
   },
   {
     "name": "Knight of Swords",
     "image": "assets/tarot/s12.jpg",
-    "description": "Speaking your mind"
+    "past": "Geçmişte, fikirlerini ifade etmekte çekingen davrandın veya sessiz kaldın. Bu, bazı fırsatları kaçırmana neden oldu ama cesaretini toplamanı sağladı.",
+    "present": "Şu anda, zihninin gücüyle hedeflerine hızla ilerleyebilirsin. Fikirlerini cesurca paylaş ve kararlı ol. Net iletişimin, seni başarıya taşıyacak, harekete geç!",
+    "future": "Gelecekte, bu cesaret ve netlik seni öne çıkaracak. Fikirlerin ve kararlılığın, büyük başarılar getirecek. Sesini duyur, zafer seni bekliyor!"
   },
   {
     "name": "Queen of Swords",
     "image": "assets/tarot/s13.jpg",
-    "description": "Exercising tact or using diplomacy"
+    "past": "Geçmişte, sert kararlar veya keskin sözler ilişkilerde gerilim yarattı. Bu, seni yordu ama nazik ve net iletişim kurmanın değerini öğretti.",
+    "present": "Şu anda, diplomatik ve net bir şekilde konuşarak ilişkileri güçlendirebilirsin. Zihinsel berraklığınla zarif bir denge kur. Kelimelerin, köprüler inşa edecek!",
+    "future": "Gelecekte, bu nazik ama güçlü yaklaşım sana saygı ve başarı kazandıracak. Netliğin ve inceliğin, ilişkilerde ve hedeflerde seni öne taşıyacak. İlerle!"
   },
   {
     "name": "King of Swords",
     "image": "assets/tarot/s14.jpg",
-    "description": "Expressing yourself with firmness and authority"
+    "past": "Geçmişte, belirsizlikler veya kararsızlık seni yavaşlattı. Net bir vizyon eksikliği, hedeflerine ulaşmanı zorlaştırdı ama liderlik gücünü keşfetmeni sağladı.",
+    "present": "Şu anda, kararlı ve adil bir liderlik sergileyerek hedeflerine ulaşabilirsin. Zihninin gücüyle net bir vizyon oluştur. Otoriten, seni başarıya taşıyacak!",
+    "future": "Gelecekte, bu zihinsel güç ve otorite seni büyük başarılara ulaştıracak. Adil ve net kararların, saygı ve zafer getirecek. Liderliğine güven, yolun açık!"
   },
   {
     "name": "Ace of Wands",
     "image": "assets/tarot/w01.jpg",
-    "description": "Being inspired"
+    "past": "Geçmişte, enerjini veya tutkularını tam anlamıyla kullanmadın. Fikirlerin gölgede kaldı, ama bu seni yeni başlangıçlara hazır hale getirdi.",
+    "present": "Şu anda, yeni bir fikir veya tutkuyla harekete geçebilirsin. İçindeki kıvılcımı kucakla ve cesur bir başlangıç yap. Bu ilham, seni büyük işlere taşıyacak!",
+    "future": "Gelecekte, bu ateşli başlangıç seni başarıya ulaştıracak. Tutkun, yeni kapılar açacak ve hayallerini gerçeğe dönüştürecek. İlhamına güven, yolun açık!"
   },
   {
     "name": "Two of Wands",
     "image": "assets/tarot/w02.jpg",
-    "description": "Having a choice"
+    "past": "Geçmişte, kararsızlık veya belirsizlik seni yavaşlattı. Seçenekler arasında kaldın, ama bu, kendi vizyonunu netleştirme isteğini güçlendirdi.",
+    "present": "Şu anda, geleceğini planlayarak yeni yollar keşfedebilirsin. Cesur hayaller kur ve bir sonraki adımı belirle. Vizyonun, seni özgürleştirecek ve yönlendirecek!",
+    "future": "Gelecekte, bu net vizyon seni büyük başarılara taşıyacak. Planların gerçeğe dönüşecek ve yeni ufuklar keşfedeceksin. Cesaretle ilerle, zafer seni bekliyor!"
   },
   {
     "name": "Three of Wands",
     "image": "assets/tarot/w03.jpg",
-    "description": "Putting a plan into motion"
+    "past": "Geçmişte, planlarını hayata geçirmekte tereddüt ettin. Fikirlerin plan aşamasında kaldı, ama bu seni daha kararlı olmaya hazırladı.",
+    "present": "Şu anda, adımlarını atarak hayallerini gerçeğe dönüştürebilirsin. Planlarını hayata geçir ve cesur ol. Bu çaba, seni yeni fırsatlara taşıyacak!",
+    "future": "Gelecekte, bu kararlı adımlar seni büyük başarılara ulaştıracak. Vizyonun ve çaban, yeni kapılar açacak. İlerle, hayallerin gerçeğe dönüşecek!"
   },
   {
     "name": "Four of Wands",
     "image": "assets/tarot/w04.jpg",
-    "description": "Sharing in a great celebration"
+    "past": "Geçmişte, yalnız çalıştın veya başarılarını paylaşma fırsatın olmadı. Bu, topluluğun değerini anlamanı sağladı ve seni birleştirdi.",
+    "present": "Şu anda, sevdiklerinle başarılarını paylaşarak neşeyi çoğaltabilirsin. Bir kutlama düzenle ve birlikteliği kucakla. Bu anlar, seni güçlendirecek ve mutlu edecek!",
+    "future": "Gelecekte, bu neşeli anlar ve topluluk bağı sana ilham verecek. Sevdiklerinle kurduğun bağlar, hayatını zenginleştirecek. Birlikte kutla, neşe seni bekliyor!"
   },
   {
     "name": "Five of Wands",
     "image": "assets/tarot/w05.jpg",
-    "description": "Calmly expressing a dissenting opinion"
+    "past": "Geçmişte, rekabet veya fikir çatışmaları seni yordu. Farklı bakış açıları arasında kaldın, ama bu, iş birliğinin değerini anlamanı sağladı.",
+    "present": "Şu anda, fikirlerini sakin ve yapıcı bir şekilde paylaşarak fark yaratabilirsin. İş birliğine açık ol, farklı bakış açıları seni zenginleştirecek!",
+    "future": "Gelecekte, bu iş birliği ve yapıcı yaklaşım seni başarıya taşıyacak. Çeşitlilikten güç alacak, hedeflerine ulaşacaksın. Birlikte çalış, zafer seni bekliyor!"
   },
   {
     "name": "Six of Wands",
     "image": "assets/tarot/w06.jpg",
-    "description": "Outperforming your peers"
+    "past": "Geçmişte, çabaların bazen fark edilmedi ve hak ettiğin tanınmayı göremedin. Bu seni yordu ama kararlılığını güçlendirdi, zaferin temelini attı.",
+    "present": "Şu anda, başarılarını kutlayarak parlayabilirsin. Çabalarının karşılığını alıyorsun; kendine güven ve gurur duy. Bu zafer, seni daha da motive edecek!",
+    "future": "Gelecekte, bu özgüven ve tanınma seni yeni hedeflere taşıyacak. Başarıların, daha büyük zaferlerin kapısını açacak. Gururla ilerle, ödüller seni bekliyor!"
   },
   {
     "name": "Seven of Wands",
     "image": "assets/tarot/w07.jpg",
-    "description": "Refusing to be silenced through fear or intimidation"
+    "past": "Geçmişte, inandığın şeyleri savunmakta tereddüt ettin veya geri adım attın. Bu, seni zorladı ama cesaretini toplamanı sağladı.",
+    "present": "Şu anda, inandığın değerleri savunarak gücünü gösterebilirsin. Net bir duruş sergile ve kararlı ol. İçsel gücün, seni öne taşıyacak!",
+    "future": "Gelecekte, bu cesaret sana saygı ve başarı getirecek. Duruşun, hedeflerine ulaşmanı sağlayacak. İnancına sadık kal, zafer seni bekliyor!"
   },
   {
     "name": "Eight of Wands",
     "image": "assets/tarot/w08.jpg",
-    "description": "Taking swift action"
+    "past": "Geçmişte, beklemek veya tereddüt seni yavaşlattı. Fırsatları kaçırdın ama bu, hızlı hareket etmenin değerini anlamanı sağladı.",
+    "present": "Şu anda, hızlı kararlarla hedeflerine doğru ilerleyebilirsin. Enerjini ve momentumu kucakla. Fırsatlar seni bekliyor, şimdi harekete geçme zamanı!",
+    "future": "Gelecekte, bu hız ve kararlılık seni yeni başarılara taşıyacak. Enerjin, kapıları açacak ve hedeflerine ulaşacaksın. Momentumuna güven, yolun açık!"
   },
   {
     "name": "Nine of Wands",
     "image": "assets/tarot/w09.jpg",
-    "description": "Sticking with it for the duration"
+    "past": "Geçmişte, yorgunluk veya engeller seni sınadı. Hedeflerine ulaşmak için mücadele ettin, ama bu seni daha dayanıklı kıldı.",
+    "present": "Şu anda, hedeflerine bağlı kalarak son bir çabayla zaferi yakalayabilirsin. Azmini koru, bitiş çizgisi yakın. Dayanıklılığın seni güçlendirecek!",
+    "future": "Gelecekte, bu kararlılık sana büyük ödüller getirecek. Azmin, hedeflerini gerçeğe dönüştürecek. Son bir adım at, zafer seni bekliyor!"
   },
   {
     "name": "Ten of Wands",
     "image": "assets/tarot/w10.jpg",
-    "description": "Holding your own in extreme circumstances"
+    "past": "Geçmişte, fazla sorumluluk aldın ve bu seni yordu. Yüklerin altında ezildin, ama bu, içsel gücünü fark etmeni sağladı.",
+    "present": "Şu anda, zorluklara rağmen hedeflerine ulaşmak için çalışabilirsin. Önceliklerini belirle ve yüklerini hafiflet. Bu çaba, seni başarıya taşıyacak!",
+    "future": "Gelecekte, bu çaba ve sorumluluk seni gururlandıracak. Yüklerinden kurtulup hedeflerine ulaşacaksın. Odaklan, büyük ödüller seni bekliyor!"
   },
   {
     "name": "Page of Wands",
     "image": "assets/tarot/w11.jpg",
-    "description": "Leaping at a new opportunity"
+    "past": "Geçmişte, cesaretini veya merakını tam anlamıyla kullanmadın. Yeni fırsatlara tereddütle yaklaştın, ama bu seni macera arayışına hazırladı.",
+    "present": "Şu anda, heyecan verici bir başlangıçla potansiyelini keşfedebilirsin. Merakını kucakla ve yeni bir yolculuğa atıl. Bu enerji, seni ilham verici yollara taşıyacak!",
+    "future": "Gelecekte, bu macera ruhu seni başarıya ulaştıracak. Merakın ve cesaretin, yeni kapılar açacak. Risk al, heyecan verici fırsatlar seni bekliyor!"
   },
   {
     "name": "Knight of Wands",
     "image": "assets/tarot/w12.jpg",
-    "description": "Charging ahead"
+    "past": "Geçmişte, beklemek veya tereddüt seni yavaşlattı. Tutkularını erteledin, ama bu, enerjini toplamanı ve harekete geçme isteğini güçlendirdi.",
+    "present": "Şu anda, tutkunla hedeflerine hızla ilerleyebilirsin. Enerjini ve cesaretini kucakla, şimdi harekete geçme zamanı! Kararlılığın seni yeni ufuklara taşıyacak.",
+    "future": "Gelecekte, bu cesaret ve tutku seni büyük başarılara ulaştıracak. Enerjin, hayallerini gerçeğe dönüştürecek. Harekete geç, zafer seni bekliyor!"
   },
   {
     "name": "Queen of Wands",
     "image": "assets/tarot/w13.jpg",
-    "description": "Paying close attention"
+    "past": "Geçmişte, dikkatin dağıldı veya odaklanmakta zorlandın. Bu, bazı fırsatları kaçırmana neden oldu ama karizmanı ve liderliğini güçlendirdi.",
+    "present": "Şu anda, çevrendeki fırsatlara odaklanarak parlayabilirsin. Karizmanı ve özgüvenini kullan, vizyonunu netleştir. Bu enerji, seni başarıya taşıyacak!",
+    "future": "Gelecekte, bu çekicilik ve net vizyon sana ilham verecek. Karizman, seni öne çıkaracak ve hedeflerine ulaştıracak. Odaklan, başarı seni bekliyor!"
   },
   {
     "name": "King of Wands",
     "image": "assets/tarot/w14.jpg",
-    "description": "Putting old things together in new and exciting ways"
+    "past": "Geçmişte, rutine takıldın veya yenilik yapmaktan çekindin. Bu, yaratıcılığını sınırladı ama vizyoner tarafını uyandırdı.",
+    "present": "Şu anda, eski fikirleri yeni yollarla birleştirerek büyük işler başarabilirsin. Liderlik ve tutkuyla hareket et. Yaratıcılığın, seni başarıya taşıyacak!",
+    "future": "Gelecekte, bu vizyoner yaklaşım seni büyük başarılara ulaştıracak. Yenilikçi fikirlerin, kapıları açacak. Liderliğine güven, zafer seni bekliyor!"
   },
   {
     "name": "Ace of Pentacles",
     "image": "assets/tarot/p01.jpg",
-    "description": "Outlining a plan for achieving prosperity"
+    "past": "Geçmişte, bazı fırsatları kaçırdın veya maddi hedeflere odaklanmadın. Bu, seni planlı olmaya ve bolluğu aramaya yöneltti.",
+    "present": "Şu anda, refah için bir plan yaparak sağlam adımlar atabilirsin. Yeni bir başlangıç yap, çaban bolluk getirecek. Bu fırsat, seni güçlendirecek!",
+    "future": "Gelecekte, bu planlı adımlar seni maddi ve manevi zenginliğe taşıyacak. Çabaların, başarıyı getirecek. Bolluğa güven, ödüller seni bekliyor!"
   },
   {
     "name": "Two of Pentacles",
     "image": "assets/tarot/p02.jpg",
-    "description": "Weighing options"
+    "past": "Geçmişte, fazla sorumluluk aldın ve dengeyi bulmakta zorlandın. Bu seni yordu ama esnek olmanın önemini anlamanı sağladı.",
+    "present": "Şu anda, seçeneklerini tartarak hayatında uyum yaratabilirsin. Esnek ol ve önceliklerini dengele. Bu yaklaşım, sana huzur ve netlik getirecek!",
+    "future": "Gelecekte, bu esneklik ve denge seni başarıya taşıyacak. Uyumlu bir yaşam, huzur ve yeni fırsatlar getirecek. Dengeye güven, yolun açık!"
   },
   {
     "name": "Three of Pentacles",
     "image": "assets/tarot/p03.jpg",
-    "description": "Finishing a project"
+    "past": "Geçmişte, yalnız çalıştın veya yeteneklerini paylaşma fırsatın olmadı. Bu, iş birliğinin değerini anlamanı sağladı ve seni güçlendirdi.",
+    "present": "Şu anda, yeteneklerini paylaşarak bir projeyi tamamlayabilirsin. Takım çalışmasına açık ol, ortak çaba seni parlatacak. Birlikte çalış, başarı seni bekliyor!",
+    "future": "Gelecekte, bu iş birliği sana yeni fırsatlar sunacak. Ortak çabalar, başarıyı ve tanınmayı getirecek. Takım ruhuna güven, zafer senin olacak!"
   },
   {
     "name": "Four of Pentacles",
     "image": "assets/tarot/p04.jpg",
-    "description": "Saving for a rainy day"
+    "past": "Geçmişte, belirsizlikler veya güvensizlik seni zorladı. Kaynaklarını koruma içgüdüsü, sağlam bir temel kurma isteğini uyandırdı.",
+    "present": "Şu anda, kaynaklarını akıllıca kullanarak geleceğini güçlendirebilirsin. Planlı ol ve sağlam bir temel kur. Bu, sana huzur ve güvenlik getirecek!",
+    "future": "Gelecekte, bu planlı yaklaşım seni başarıya taşıyacak. Güvenli bir temel, bolluk ve huzur getirecek. Planlarına sadık kal, ödüller seni bekliyor!"
   },
   {
     "name": "Five of Pentacles",
     "image": "assets/tarot/p05.jpg",
-    "description": "Recognizing your needs and taking action to fulfill them"
+    "past": "Geçmişte, eksiklik veya yalnızlık hissettin. Kendi ihtiyaçlarını ihmal ettin, ama bu seni kendi değerini fark etmeye yöneltti.",
+    "present": "Şu anda, ihtiyaçlarına odaklanarak hayatını zenginleştirebilirsin. Destek ara veya kendine iyi bak. Bu farkındalık, seni güçlendirecek ve yenileyecek!",
+    "future": "Gelecekte, bu öz farkındalık seni bolluğa ve huzura taşıyacak. İhtiyaçlarını karşılayarak güçlü bir yol bulacaksın. Kendine güven, bolluk seni bekliyor!"
   },
   {
     "name": "Six of Pentacles",
     "image": "assets/tarot/p06.jpg",
-    "description": "Giving time, money, or effort to a charity"
+    "past": "Geçmişte, paylaşımı erteledin veya cömertlikten çekindin. Bu, bağ kurmanı zorlaştırdı ama vermenin değerini anlamanı sağladı.",
+    "present": "Şu anda, zamanını veya kaynaklarını paylaşarak hem kendine hem başkalarına fayda sağlayabilirsin. Cömert ol, bu seni huzurlu ve mutlu kılacak!",
+    "future": "Gelecekte, bu cömertlik sana bolluk ve güçlü bağlar getirecek. Paylaşımın, hayatını zenginleştirecek. İyilik yap, ödüller seni bekliyor!"
   },
   {
     "name": "Seven of Pentacles",
     "image": "assets/tarot/p07.jpg",
-    "description": "Measuring progress toward your goal"
+    "past": "Geçmişte, sonuçları hemen görmek istedin ve sabırsızlık hissettin. Bu, ilerlemeni yavaşlattı ama sabrın değerini anlamanı sağladı.",
+    "present": "Şu anda, attığın adımları değerlendirerek motive olabilirsin. Sabırlı ol ve çabanı gözden geçir. Her adım, seni hedeflerine daha da yaklaştırıyor!",
+    "future": "Gelecekte, bu sabır ve çaba sana büyük başarılar getirecek. Emeklerin meyve verecek, huzur ve ödül seni bekliyor. Devam et, zafer yakın!"
   },
   {
     "name": "Eight of Pentacles",
     "image": "assets/tarot/p08.jpg",
-    "description": "Doing your best"
+    "past": "Geçmişte, odaklanma eksikliği veya acelecilik seni yavaşlattı. Yeteneklerini geliştirmek için yeterince zaman ayırmadın, ama bu seni özveriye hazırladı.",
+    "present": "Şu anda, yeteneklerini geliştirerek en iyisini yapabilirsin. Özveriyle çalış, bir beceriye odaklan. Bu çaba, seni ustalaşmaya ve başarıya taşıyacak!",
+    "future": "Gelecekte, bu özveri sana gurur ve büyük ödüller getirecek. Çalışmaların, tanınma ve başarıyı kazandıracak. Pratik yap, parlak bir gelecek seni bekliyor!"
   },
   {
     "name": "Nine of Pentacles",
     "image": "assets/tarot/p09.jpg",
-    "description": "Investing time in learning or teaching a difficult task"
+    "past": "Geçmişte, çok çalıştın ve bazen emeğinin karşılığını göremedin. Bu, bağımsızlığını ve kendi değerini fark etmeni sağladı.",
+    "present": "Şu anda, emeğinin meyvelerini toplayarak başarını kutlayabilirsin. Bağımsızlığınla parılda ve öğrenmeyi paylaş. Bu, seni daha güçlü kılacak!",
+    "future": "Gelecekte, bu bağımsızlık ve başarı seni daha özgür ve mutlu kılacak. Emeğin, bolluk ve huzur getirecek. Kendine güven, ödüller seni bekliyor!"
   },
   {
     "name": "Ten of Pentacles",
     "image": "assets/tarot/p10.jpg",
-    "description": "Celebrating your physical and financial blessings"
+    "past": "Geçmişte, yalnız çalıştın veya aile bağlarını ihmal ettin. Bu, topluluğun ve paylaşımın değerini anlamanı sağladı.",
+    "present": "Şu anda, sevdiklerinle başarılarını paylaşarak mutluluğu çoğaltabilirsin. Aile ve dostlarla bir araya gel, bolluğu kutla. Bu bağlar, seni güçlendirecek!",
+    "future": "Gelecekte, bu güçlü bağlar ve bolluk sana huzur ve mutluluk getirecek. Topluluğun, hayatını zenginleştirecek. Birlikte kutla, neşe seni bekliyor!"
   },
   {
     "name": "Page of Pentacles",
     "image": "assets/tarot/p11.jpg",
-    "description": "Learning the value of a dollar"
+    "past": "Geçmişte, fırsatları göz ardı ettin veya öğrenmeye yeterince odaklanmadın. Bu, merakını ve keşif isteğini uyandırdı.",
+    "present": "Şu anda, yeni bir beceri veya kaynakla geleceğini inşa edebilirsin. Merakını kucakla ve öğrenmeye açık ol. Bu, seni bolluğa taşıyacak!",
+    "future": "Gelecekte, bu öğrenme ve çaba seni başarıya ulaştıracak. Yeni becerilerin, kapıları açacak. Merakına güven, bolluk ve zafer seni bekliyor!"
   },
   {
     "name": "Knight of Pentacles",
     "image": "assets/tarot/p12.jpg",
-    "description": "Spending money wisely"
+    "past": "Geçmişte, aceleci kararlar veya plansızlık seni yavaşlattı. Bu, sabırlı ve disiplinli olmanın değerini anlamanı sağladı.",
+    "present": "Şu anda, kaynaklarını dikkatli kullanarak hedeflerine ulaşabilirsin. Sabırlı ol ve planlı adımlar at. Bu disiplin, seni sağlam bir başarıya taşıyacak!",
+    "future": "Gelecekte, bu disiplinli yaklaşım sana güven ve istikrar getirecek. Çabaların, hedeflerine ulaşmanı sağlayacak. Adım adım ilerle, zafer seni bekliyor!"
   },
   {
     "name": "Queen of Pentacles",
     "image": "assets/tarot/p13.jpg",
-    "description": "Appreciating fine food, fine wine, beautiful art, beautiful bodies, or any of the better things in life"
+    "past": "Geçmişte, basit zevkleri veya kendine zaman ayırmayı erteledin. Bu, bolluğun ve şefkatin değerini anlamanı sağladı.",
+    "present": "Şu anda, hayatın keyifli yönlerini kucaklayarak mutluluğu bulabilirsin. Şefkatle hareket et ve güzellikleri kutla. Bu, seni huzura taşıyacak!",
+    "future": "Gelecekte, bu zarif ve şefkatli yaklaşım sana huzur ve bolluk getirecek. Güzellikleri kucakladıkça, hayatın zenginleşecek. Keyfine bak, mutluluk seni bekliyor!"
   },
   {
     "name": "King of Pentacles",
     "image": "assets/tarot/p14.jpg",
-    "description": "Becoming debt-free"
+    "past": "Geçmişte, belirsizlikler veya plansızlık seni zorladı. Bu, istikrarlı ve lider bir yaklaşımın önemini anlamanı sağladı.",
+    "present": "Şu anda, kaynaklarını akıllıca yöneterek sağlam bir temel inşa edebilirsin. Liderlik yap ve planlarını hayata geçir. Bu, seni bolluğa taşıyacak!",
+    "future": "Gelecekte, bu istikrar ve liderlik sana huzur ve başarı getirecek. Planların, bolluk ve güven inşa edecek. Kararlı ol, zafer seni bekliyor!"
   }
 ]
