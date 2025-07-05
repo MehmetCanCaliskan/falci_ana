@@ -7,6 +7,7 @@ import 'screens/play_game_page.dart'; // import et
 import 'screens/kahve_fali.dart'; // Kahve Falı ekranını import ettik
 import 'screens/fallarim.dart';
 import 'screens/fan_tarot_picker.dart';
+import 'screens/kursun_dokme.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -28,7 +29,7 @@ class _HomePageState extends State<HomePage> {
     {'title': 'Tarot Falı', 'icon': Icons.auto_awesome},
     {'title': 'El Falı', 'icon': Icons.pan_tool},
     {'title': 'Katina Falı', 'icon': Icons.star},
-    {'title': 'Yüz Falı', 'icon': Icons.face},
+    {'title': 'Kurşun Dökme', 'icon': Icons.water_drop},
     {'title': 'Melek Kartları', 'icon': Icons.card_giftcard},
   ];
 
@@ -105,7 +106,12 @@ class _HomePageState extends State<HomePage> {
         context,
         MaterialPageRoute(builder: (_) => const FanTarotPickerPage()),
       );
-    }
+    } else if (title == 'Kurşun Dökme') {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const KursunDokmeScreen()),
+        );
+      }
 
     // Diğer fallar için buraya else if ekleyebilirsin
   }

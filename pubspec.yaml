@@ -52,6 +52,8 @@ dependencies:
   
   flutter_localizations:
     sdk: flutter  # Flutter yerelleştirme desteğini ekledik
+  video_player: ^2.10.0
+  chewie: ^1.12.1
 dev_dependencies:
   dart_code_metrics: ^5.7.6
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -75,6 +77,7 @@ flutter:
     - assets/config/  
     - assets/tarot/
     - assets/tarot_cards.json
+    - assets/videos/kursun_dokme_ani.mp4
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
