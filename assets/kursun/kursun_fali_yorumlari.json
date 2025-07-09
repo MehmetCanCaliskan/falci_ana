@@ -1,0 +1,362 @@
+[
+  {
+    "iliski_durumu": "İlişkisi Var",
+    "is_durumu": "Ev hanımı",
+    "fal_metni": "Merhaba! Kurşunda bir kapı şekli belirdi; evindeki huzurun artacağına işaret. İlişkin sevgiyle güçleniyor, ev hanımı olarak enerjin bereketi çekiyor. Kalp figürü, aşkta derin bağları müjdeliyor. Nazar için tuzlu suyla ritüel yap. Yeni fırsatlar kapını çalacak, kalbinle ilerle!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Var",
+    "is_durumu": "Çalışmıyor",
+    "fal_metni": "Hoş geldin! Kurşunda yol ve kuş figürü gördüm. İlişkin sana güç veriyor, çalışmıyor olman yeni başlangıçlara hazırlık. Kuş, özgürlüğü simgeliyor; yakında fırsatlar uçacak. Nazar için mavi boncuk taşı. Sabırlı ol, yolun sonu aydınlık ve umut dolu!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Var",
+    "is_durumu": "İş arıyor",
+    "fal_metni": "Merhaba! Kurşunda merdiven şekli belirdi, iş arayışında yükselişe geçeceksin. İlişkin destek, aşkın güç katıyor. Dalga figürü değişimi müjdeliyor. Nazar için adaçayı yak. Cesaretinle yeni kapılar açılacak, adımlarını sağlam at, başarı seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Var",
+    "is_durumu": "Öğrenci",
+    "fal_metni": "Hoş geldin! Kurşunda kitap ve çiçek şekli belirdi. Öğrenci olman bilginin peşinde koşman ilham verici, ilişkinde sevgi çiçek açıyor. Çiçek umudu simgeliyor; nazardan korunmak için gül suyu serp. Derslerde ve aşkta parlak günler yakın, kendine inan!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Var",
+    "is_durumu": "Akademisyen",
+    "fal_metni": "Merhaba! Kurşunda ağaç ve yıldız şekli gördüm. Akademisyen olman bilgelik, ilişkin sevgi dolu bir temel sunuyor. Ağaç büyümeni, yıldız parlayışını müjdeliyor. Nazar için evde naber yak. Bilgin ve aşkınla yeni ufuklar açılacak, cesur adımlar at!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Var",
+    "is_durumu": "Kendi işini yapıyor",
+    "fal_metni": "Merhaba! Kurşunda bir anahtar ve çiçek şekli belirdi. Kendi işini yapan biri olarak cesaretin, ilişkinde sevgiyle birleşiyor. Anahtar, yeni fırsatların kilidini açacak. Nazar için tuz serp. İlişkinde derinleşme ve işinde başarı kapıda. Kendine güven, yolun bereketli!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Var",
+    "is_durumu": "Kamu sektörü",
+    "fal_metni": "Hoş geldin! Kurşunda dağ ve kalp figürü gördüm. Kamu sektöründeki istikrarın, ilişkinde sevgiyle güçleniyor. Dağ, zorlukları aşacağını müjdeliyor. Nazar için mavi boncuk tak. Yeni sorumluluklar ve aşkta huzur seni bekliyor. Adımlarını sağlam at, her şey yolunda!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Var",
+    "is_durumu": "Özel sektör",
+    "fal_metni": "Merhaba! Kurşunda dalga ve yıldız şekli belirdi. Özel sektördeki dinamizmin, ilişkinde tutkuyla parlıyor. Yıldız, kariyerinde yükselişi simgeliyor. Nazar için adaçayı yak. Aşk ve iş hayatında sürpriz fırsatlar yakın. Cesur ol, yıldızlar seninle!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Var",
+    "is_durumu": "Emekli",
+    "fal_metni": "Hoş geldin! Kurşunda bahçe ve kuş figürü gördüm. Emekliliğin huzuru, ilişkinde sevgiyle çiçek açıyor. Kuş, özgür ruhunu müjdeliyor. Nazar için gül suyu serp. Yeni hobiler ve aşkta yenilenme kapıda. Hayatın tadını çıkar, güzel günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Nişanlı",
+    "is_durumu": "Ev hanımı",
+    "fal_metni": "Merhaba! Kurşunda yüzük ve ağaç şekli belirdi. Nişanlı olman, aşkta sağlam bir geleceği müjdeliyor; ev hanımı olarak enerjin bereketli. Ağaç, büyüme ve huzuru simgeliyor. Nazar için naber yak. Nişanın mutluluğu artacak, yeni adımlar seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Nişanlı",
+    "is_durumu": "Çalışmıyor",
+    "fal_metni": "Merhaba! Kurşunda bir köprü ve çiçek şekli belirdi. Nişanlınla kurduğun bağ, hayatına huzur katıyor. Çalışmıyor olman, yeni başlangıçlara hazırlık. Köprü, hayallerine geçişi simgeliyor. Nazar için gül suyu serp. Aşk ve fırsatlar seni bekliyor, cesur adımlar at!"
+  },
+  {
+    "iliski_durumu": "Nişanlı",
+    "is_durumu": "İş arıyor",
+    "fal_metni": "Hoş geldin! Kurşunda yol ve anahtar figürü gördüm. Nişanlınla sevginiz güçleniyor, iş arayışın yakında sonuçlanacak. Anahtar, yeni kapıları açacak. Nazar için mavi boncuk tak. Sabırlı ol, iş ve aşkta güzel sürprizler kapıda. Kendine güven, yolun açık!"
+  },
+  {
+    "iliski_durumu": "Nişanlı",
+    "is_durumu": "Öğrenci",
+    "fal_metni": "Merhaba! Kurşunda kitap ve yüzük şekli belirdi. Öğrenci olman bilginle parlıyor, nişanlınla aşkın çiçek açıyor. Yüzük, bağlılığın gücünü müjdeliyor. Nazar için adaçayı yak. Derslerde ve ilişkinde başarı seni bekliyor. Hayallerine inan, her şey yoluna girecek!"
+  },
+  {
+    "iliski_durumu": "Nişanlı",
+    "is_durumu": "Akademisyen",
+    "fal_metni": "Hoş geldin! Kurşunda ağaç ve yıldız figürü gördüm. Akademisyen kimliğin bilgelik, nişanlınla aşkın derinlik katıyor. Yıldız, kariyerinde parlayışı simgeliyor. Nazar için naber yak. İlişkinde huzur ve işte yükseliş kapıda. Cesaretle ilerle, yolun parlak!"
+  },
+  {
+    "iliski_durumu": "Nişanlı",
+    "is_durumu": "Kendi işini yapıyor",
+    "fal_metni": "Merhaba! Kurşunda gemi ve kalp şekli belirdi. Kendi işini yapman cesaretin, nişanlınla sevgin güç kaynağı. Gemi, yeni maceraları müjdeliyor. Nazar için tuzlu su ritüeli yap. İş ve aşkta bereketli günler yakın. Kalbinle ilerle, başarı seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Nişanlı",
+    "is_durumu": "Kamu sektörü",
+    "fal_metni": "Merhaba! Kurşunda kale ve yüzük şekli belirdi. Nişanlınla sevginiz sağlam, kamu sektöründeki istikrarın güç katıyor. Kale, korunmayı simgeliyor. Nazar için tuzlu su ritüeli yap. Aşkta derinleşme ve işte yükseliş kapıda. Kendine güven, huzurlu günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Nişanlı",
+    "is_durumu": "Özel sektör",
+    "fal_metni": "Hoş geldin! Kurşunda dalga ve çiçek figürü gördüm. Nişanlınla aşkın dalgaları coşkulu, özel sektördeki enerjin parlıyor. Çiçek, yenilenmeyi müjdeliyor. Nazar için mavi boncuk tak. İş ve ilişkinde sürpriz fırsatlar yakın. Cesur ol, yolun bereketli!"
+  },
+  {
+    "iliski_durumu": "Nişanlı",
+    "is_durumu": "Emekli",
+    "fal_metni": "Merhaba! Kurşunda bahçe ve kuş şekli belirdi. Emekliliğin huzuru, nişanlınla sevginle çiçek açıyor. Kuş, özgürlüğü simgeliyor. Nazar için gül suyu serp. Yeni hobiler ve aşkta derin bağlar kapıda. Hayatın tadını çıkar, güzel sürprizler seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Evli",
+    "is_durumu": "Ev hanımı",
+    "fal_metni": "Hoş geldin! Kurşunda ev ve kalp figürü gördüm. Evliliğin sevgi dolu, ev hanımı olarak enerjin bereketli. Ev şekli, yuvanda huzuru müjdeliyor. Nazar için adaçayı yak. Ailede mutluluk ve beklenmedik güzel gelişmeler kapıda. Kalbinle ilerle, her şey yoluna girecek!"
+  },
+  {
+    "iliski_durumu": "Evli",
+    "is_durumu": "Çalışmıyor",
+    "fal_metni": "Merhaba! Kurşunda yol ve yıldız şekli belirdi. Evliliğin sağlam temeli, çalışmıyor olman yeni başlangıçlara işaret. Yıldız, umudu simgeliyor. Nazar için naber yak. Eşinle bağın güçlenecek, yeni fırsatlar kapını çalacak. Sabırlı ol, parlak günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Evli",
+    "is_durumu": "İş arıyor",
+    "fal_metni": "Merhaba! Kurşunda bir anahtar ve yol şekli belirdi. Evliliğin sağlam, iş arayışın umutlu. Anahtar, yeni bir iş kapısını açacak. Nazar için mavi boncuk tak. Eşinle destekleşerek ilerleyeceksin, yakında güzel fırsatlar seni bulacak. Sabırlı ol, başarı kapıda!"
+  },
+  {
+    "iliski_durumu": "Evli",
+    "is_durumu": "Öğrenci",
+    "fal_metni": "Hoş geldin! Kurşunda kitap ve kalp figürü gördüm. Evliliğin sevgiyle güçleniyor, öğrenci olman bilginle parlıyor. Kalp, eşinle bağını müjdeliyor. Nazar için gül suyu serp. Derslerde ve yuvanda huzur artacak. Kendine inan, parlak günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Evli",
+    "is_durumu": "Akademisyen",
+    "fal_metni": "Merhaba! Kurşunda ağaç ve yıldız şekli belirdi. Akademisyen kimliğin bilgelik, evliliğin sevgi dolu. Yıldız, işte parlayışı simgeliyor. Nazar için adaçayı yak. Eşinle huzurun ve kariyerinde başarı kapıda. Cesur adımlarla ilerle, her şey yoluna girecek!"
+  },
+  {
+    "iliski_durumu": "Evli",
+    "is_durumu": "Kendi işini yapıyor",
+    "fal_metni": "Hoş geldin! Kurşunda gemi ve çiçek figürü gördüm. Kendi işini yapman cesaretin, evliliğin güç kaynağın. Gemi, yeni fırsatları müjdeliyor. Nazar için tuzlu su ritüeli yap. İş ve aşkta bereketli günler yakın. Kalbinle ilerle, başarı seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Evli",
+    "is_durumu": "Kamu sektörü",
+    "fal_metni": "Merhaba! Kurşunda kale ve kuş şekli belirdi. Kamu sektöründeki istikrarın, evliliğinde sevgiyle birleşiyor. Kuş, özgürlüğü simgeliyor. Nazar için naber yak. Yuvanda huzur ve işte yeni sorumluluklar kapıda. Kendine güven, güzel sürprizler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Evli",
+    "is_durumu": "Özel sektör",
+    "fal_metni": "Merhaba! Kurşunda dalga ve kalp şekli belirdi. Evliliğin sevgiyle parlıyor, özel sektördeki enerjin başarıyı çağırıyor. Dalga, değişim rüzgârını müjdeliyor. Nazar için adaçayı yak. Eşinle huzurun ve işte yükseliş kapıda. Cesur ol, güzel günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Evli",
+    "is_durumu": "Emekli",
+    "fal_metni": "Hoş geldin! Kurşunda bahçe ve kuş figürü gördüm. Emekliliğin huzuru, evliliğinde sevgiyle çiçek açıyor. Kuş, özgürlüğü simgeliyor. Nazar için gül suyu serp. Yeni hobiler ve eşinle derin bağlar kapıda. Hayatın tadını çıkar, sürprizler seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Yok",
+    "is_durumu": "Ev hanımı",
+    "fal_metni": "Merhaba! Kurşunda çiçek ve yol şekli belirdi. İlişkisi olmayan biri olarak özgürlüğün, ev hanımı enerjinle bereketleniyor. Çiçek, yeni başlangıçları müjdeliyor. Nazar için tuzlu su ritüeli yap. Sosyal çevrende ve içinde umut açacak, kendine güven!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Yok",
+    "is_durumu": "Çalışmıyor",
+    "fal_metni": "Hoş geldin! Kurşunda yıldız ve kapı figürü gördüm. İlişkisi yokken özgürsün, çalışmıyor olman yeni fırsatlara hazırlık. Yıldız, umudu simgeliyor. Nazar için mavi boncuk tak. Yeni kapılar açılacak, hem sosyal hem içsel olarak parlayacaksın. Sabırlı ol!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Yok",
+    "is_durumu": "İş arıyor",
+    "fal_metni": "Merhaba! Kurşunda anahtar ve dalga şekli belirdi. İlişkisi olmayan biri olarak özgürlüğün, iş arayışında güçleniyor. Anahtar, yeni bir iş kapısını açacak. Nazar için naber yak. Cesaretinle fırsatlar seni bulacak, adımlarını sağlam at, başarı yakın!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Yok",
+    "is_durumu": "Öğrenci",
+    "fal_metni": "Hoş geldin! Kurşunda kitap ve çiçek figürü gördüm. Öğrenci olman bilginle parlıyor, ilişkisi yokken özgürsün. Çiçek, yenilenmeyi müjdeliyor. Nazar için gül suyu serp. Derslerde ve sosyal hayatta yeni kapılar açılacak. Kendine inan, parlak günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Yok",
+    "is_durumu": "Akademisyen",
+    "fal_metni": "Merhaba! Kurşunda ağaç ve yıldız şekli belirdi. Akademisyen bilgin parlıyor, ilişkisiz özgürlüğün güç veriyor. Yıldız, işte yükselişi müjdeliyor. Nazar için naber yak. Yeni projeler ve sosyal çevrende umut kapıda. Kendine güven, bilginle yolun parlak!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Yok",
+    "is_durumu": "Kendi işini yapıyor",
+    "fal_metni": "Hoş geldin! Kurşunda gemi ve çiçek figürü gördüm. Kendi işini yapman cesaretin, ilişkisiz olman özgürlüğün. Gemi, yeni fırsatları simgeliyor. Nazar için tuzlu su ritüeli yap. İşinde bereket ve sosyal hayatta sürprizler kapıda. Kalbinle ilerle, başarı yakın!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Yok",
+    "is_durumu": "Kamu sektörü",
+    "fal_metni": "Merhaba! Kurşunda kale ve kuş şekli belirdi. Kamu sektöründeki istikrarın, ilişkisiz özgürlüğünle parlıyor. Kuş, yeni başlangıçları müjdeliyor. Nazar için mavi boncuk tak. İşte sorumluluklar ve sosyal hayatta huzur kapıda. Cesur ol, yolun açık!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Yok",
+    "is_durumu": "Özel sektör",
+    "fal_metni": "Hoş geldin! Kurşunda dalga ve yıldız figürü gördüm. Özel sektördeki enerjin, ilişkisiz özgürlüğünle parlıyor. Yıldız, başarıyı simgeliyor. Nazar için adaçayı yak. İş ve sosyal çevrende yeni kapılar açılacak. Kendine inan, parlak günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "İlişkisi Yok",
+    "is_durumu": "Emekli",
+    "fal_metni": "Merhaba! Kurşunda bahçe ve kapı şekli belirdi. Emekliliğin huzuru, ilişkisiz özgürlüğünle çiçek açıyor. Kapı, yeni deneyimleri müjdeliyor. Nazar için gül suyu serp. Hobiler ve sosyal bağlarda yenilenme kapıda. Hayatın tadını çıkar, sürprizler yakın!"
+  },
+  {
+    "iliski_durumu": "Boşanmış",
+    "is_durumu": "Ev hanımı",
+    "fal_metni": "Hoş geldin! Kurşunda çiçek ve yol figürü gördüm. Boşanmış olman yeniden başlangıç, ev hanımı enerjin bereketli. Çiçek, umudu simgeliyor. Nazar için tuzlu su ritüeli yap. İçsel huzur ve yeni sosyal bağlar kapıda. Kendine güven, güzel günler seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Boşanmış",
+    "is_durumu": "Çalışmıyor",
+    "fal_metni": "Merhaba! Kurşunda kapı ve çiçek şekli belirdi. Boşanmış olman yeni başlangıçları, çalışmıyor olman özgürlüğü müjdeliyor. Çiçek, umut ve yenilenmeyi simgeliyor. Nazar için gül suyu serp. Yeni fırsatlar ve içsel huzur kapıda. Kendine güven, yolun aydınlık!"
+  },
+  {
+    "iliski_durumu": "Boşanmış",
+    "is_durumu": "İş arıyor",
+    "fal_metni": "Hoş geldin! Kurşunda anahtar ve yol figürü gördüm. Boşanmış olman özgürlüğün, iş arayışın umutlu. Anahtar, yeni bir iş kapısını açacak. Nazar için mavi boncuk tak. Cesaretinle fırsatlar seni bulacak, adımlarını sağlam at, başarı ve huzur yakın!"
+  },
+  {
+    "iliski_durumu": "Boşanmış",
+    "is_durumu": "Öğrenci",
+    "fal_metni": "Merhaba! Kurşunda kitap ve yıldız şekli belirdi. Boşanmış olman yeniden doğuş, öğrenci olman bilginle parlıyor. Yıldız, başarıyı müjdeliyor. Nazar için adaçayı yak. Derslerde ve sosyal hayatta yeni kapılar açılacak. Kendine inan, parlak günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Boşanmış",
+    "is_durumu": "Akademisyen",
+    "fal_metni": "Hoş geldin! Kurşunda ağaç ve kuş figürü gördüm. Akademisyen bilgin, boşanmış olman özgürlüğünle parlıyor. Kuş, yeni başlangıçları simgeliyor. Nazar için naber yak. İşte yükseliş ve içsel huzur kapıda. Cesur adımlarla ilerle, yolun bereketli!"
+  },
+  {
+    "iliski_durumu": "Boşanmış",
+    "is_durumu": "Kendi işini yapıyor",
+    "fal_metni": "Merhaba! Kurşunda gemi ve çiçek şekli belirdi. Kendi işini yapman cesaretin, boşanmış olman özgürlüğün. Gemi, yeni maceraları müjdeliyor. Nazar için tuzlu su ritüeli yap. İşinde bereket ve sosyal hayatta yenilenme kapıda. Kalbinle ilerle, başarı yakın!"
+  },
+  {
+    "iliski_durumu": "Boşanmış",
+    "is_durumu": "Kamu sektörü",
+    "fal_metni": "Hoş geldin! Kurşunda kale ve dalga figürü gördüm. Kamu sektöründeki istikrarın, boşanmış olmanla özgürlüğün parlıyor. Dalga, değişimi simgeliyor. Nazar için mavi boncuk tak. İşte sorumluluklar ve içsel huzur kapıda. Kendine güven, güzel günler seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Boşanmış",
+    "is_durumu": "Özel sektör",
+    "fal_metni": "Merhaba! Kurşunda dalga ve yıldız şekli belirdi. Boşanmış olman özgürlüğün, özel sektördeki enerjin parlıyor. Yıldız, işte başarıyı müjdeliyor. Nazar için adaçayı yak. Yeni fırsatlar ve sosyal hayatta yenilenme kapıda. Cesur ol, parlak günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Boşanmış",
+    "is_durumu": "Emekli",
+    "fal_metni": "Hoş geldin! Kurşunda bahçe ve kuş figürü gördüm. Emekliliğin huzuru, boşanmış olmanla özgürlüğün birleşiyor. Kuş, yeni başlangıçları simgeliyor. Nazar için gül suyu serp. Hobiler ve sosyal bağlarda yenilenme kapıda. Hayatın tadını çıkar, sürprizler yakın!"
+  },
+  {
+    "iliski_durumu": "Dul",
+    "is_durumu": "Ev hanımı",
+    "fal_metni": "Merhaba! Kurşunda çiçek ve kapı şekli belirdi. Dul olman içsel gücü, ev hanımı enerjin bereketi çağırıyor. Çiçek, umudu simgeliyor. Nazar için tuzlu su ritüeli yap. Yeni sosyal bağlar ve içsel huzur kapıda. Kendine güven, güzel günler seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Dul",
+    "is_durumu": "Çalışmıyor",
+    "fal_metni": "Hoş geldin! Kurşunda yol ve yıldız figürü gördüm. Dul olman özgürlüğün, çalışmıyor olman yeni başlangıçlara hazırlık. Yıldız, umudu müjdeliyor. Nazar için mavi boncuk tak. Yeni kapılar açılacak, sosyal hayatta parlayacaksın. Sabırlı ol, yolun aydınlık!"
+  },
+  {
+    "iliski_durumu": "Dul",
+    "is_durumu": "İş arıyor",
+    "fal_metni": "Merhaba! Kurşunda anahtar ve dalga şekli belirdi. Dul olman gücün, iş arayışın umutlu. Anahtar, yeni bir iş kapısını açacak. Nazar için naber yak. Cesaretinle fırsatlar seni bulacak, adımlarını sağlam at, başarı ve huzur kapıda!"
+  },
+  {
+    "iliski_durumu": "Dul",
+    "is_durumu": "Öğrenci",
+    "fal_metni": "Hoş geldin! Kurşunda kitap ve çiçek figürü gördüm. Dul olman yeniden doğuş, öğrenci olman bilginle parlıyor. Çiçek, yenilenmeyi müjdeliyor. Nazar için gül suyu serp. Derslerde ve sosyal hayatta yeni kapılar açılacak. Kendine inan, parlak günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Dul",
+    "is_durumu": "Akademisyen",
+    "fal_metni": "Merhaba! Kurşunda ağaç ve yıldız şekli belirdi. Dul olman içsel gücü, akademisyen kimliğin bilgelik katıyor. Yıldız, işte parlayışı müjdeliyor. Nazar için naber yak. Yeni projeler ve sosyal hayatta yenilenme kapıda. Kendine güven, bilginle yolun aydınlık!"
+  },
+  {
+    "iliski_durumu": "Dul",
+    "is_durumu": "Kendi işini yapıyor",
+    "fal_metni": "Hoş geldin! Kurşunda gemi ve çiçek figürü gördüm. Dul olman özgürlüğün, kendi işini yapman cesaretin. Gemi, yeni fırsatları simgeliyor. Nazar için tuzlu su ritüeli yap. İşinde bereket ve sosyal çevrende umut kapıda. Kalbinle ilerle, başarı seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Dul",
+    "is_durumu": "Kamu sektörü",
+    "fal_metni": "Merhaba! Kurşunda kale ve kuş şekli belirdi. Kamu sektöründeki istikrarın, dul olmanla özgürlüğün parlıyor. Kuş, yeni başlangıçları müjdeliyor. Nazar için mavi boncuk tak. İşte sorumluluklar ve içsel huzur kapıda. Cesur ol, güzel günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Dul",
+    "is_durumu": "Özel sektör",
+    "fal_metni": "Hoş geldin! Kurşunda dalga ve yıldız figürü gördüm. Dul olman gücün, özel sektördeki enerjin parlıyor. Yıldız, başarıyı simgeliyor. Nazar için adaçayı yak. İş ve sosyal hayatta yeni kapılar açılacak. Kendine inan, parlak günler seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Dul",
+    "is_durumu": "Emekli",
+    "fal_metni": "Merhaba! Kurşunda bahçe ve kapı şekli belirdi. Emekliliğin huzuru, dul olmanla özgürlüğün birleşiyor. Kapı, yeni deneyimleri müjdeliyor. Nazar için gül suyu serp. Hobiler ve sosyal bağlarda yenilenme kapıda. Hayatın tadını çıkar, sürprizler yakın!"
+  },
+  {
+    "iliski_durumu": "Platonik",
+    "is_durumu": "Ev hanımı",
+    "fal_metni": "Hoş geldin! Kurşunda kalp ve çiçek şekli belirdi. Platonik duyguların hassasiyetin, ev hanımı enerjin bereketli. Çiçek, umudu simgeliyor. Nazar için tuzlu su ritüeli yap. Kalbin yeni aşklara ve sosyal çevrende huzura açılacak. Kendine güven, güzel günler kapıda!"
+  },
+  {
+    "iliski_durumu": "Platonik",
+    "is_durumu": "Çalışmıyor",
+    "fal_metni": "Merhaba! Kurşunda yol ve kalp şekli belirdi. Platonik duyguların hassasiyetin, çalışmıyor olman özgürlüğün. Kalp, yeni aşklara açılmayı müjdeliyor. Nazar için mavi boncuk tak. Yeni fırsatlar ve içsel huzur kapıda. Sabırlı ol, güzel günler seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Platonik",
+    "is_durumu": "İş arıyor",
+    "fal_metni": "Hoş geldin! Kurşunda anahtar ve dalga figürü gördüm. Platonik hislerin gücün, iş arayışın umutlu. Anahtar, yeni bir iş kapısını açacak. Nazar için naber yak. Cesaretinle fırsatlar seni bulacak, sosyal hayatta parlayacaksın. Adımlarını sağlam at, başarı yakın!"
+  },
+  {
+    "iliski_durumu": "Platonik",
+    "is_durumu": "Öğrenci",
+    "fal_metni": "Merhaba! Kurşunda kitap ve çiçek şekli belirdi. Platonik duyguların derin, öğrenci olman bilginle parlıyor. Çiçek, yenilenmeyi müjdeliyor. Nazar için gül suyu serp. Derslerde ve sosyal hayatta yeni kapılar açılacak. Kendine inan, parlak günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Platonik",
+    "is_durumu": "Akademisyen",
+    "fal_metni": "Hoş geldin! Kurşunda ağaç ve yıldız figürü gördüm. Platonik hislerin içsel gücün, akademisyen kimliğin bilgelik katıyor. Yıldız, işte parlayışı simgeliyor. Nazar için adaçayı yak. Yeni projeler ve sosyal bağlar kapıda. Cesur ol, yolun aydınlık!"
+  },
+  {
+    "iliski_durumu": "Platonik",
+    "is_durumu": "Kendi işini yapıyor",
+    "fal_metni": "Merhaba! Kurşunda gemi ve kalp şekli belirdi. Platonik duyguların hassasiyetin, kendi işini yapman cesaretin. Gemi, yeni maceraları müjdeliyor. Nazar için tuzlu su ritüeli yap. İşinde bereket ve aşkta umut kapıda. Kalbinle ilerle, başarı seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Platonik",
+    "is_durumu": "Kamu sektörü",
+    "fal_metni": "Hoş geldin! Kurşunda kale ve kuş figürü gördüm. Platonik hislerin gücün, kamu sektöründeki istikrarın parlıyor. Kuş, yeni başlangıçları simgeliyor. Nazar için mavi boncuk tak. İşte sorumluluklar ve sosyal hayatta huzur kapıda. Kendine güven, güzel günler yakın!"
+  },
+  {
+    "iliski_durumu": "Platonik",
+    "is_durumu": "Özel sektör",
+    "fal_metni": "Merhaba! Kurşunda dalga ve kalp şekli belirdi. Platonik hislerin derinliğin, özel sektördeki enerjin parlıyor. Dalga, değişimi müjdeliyor. Nazar için adaçayı yak. Yeni fırsatlar ve sosyal hayatta yenilenme kapıda. Cesur ol, aşk ve başarı seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Platonik",
+    "is_durumu": "Emekli",
+    "fal_metni": "Hoş geldin! Kurşunda bahçe ve kuş figürü gördüm. Platonik duyguların hassasiyetin, emekliliğin huzurlu. Kuş, özgürlüğü simgeliyor. Nazar için gül suyu serp. Yeni hobiler ve sosyal bağlar kapıda. Kalbinle ilerle, güzel sürprizler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Ayrılmış",
+    "is_durumu": "Ev hanımı",
+    "fal_metni": "Merhaba! Kurşunda çiçek ve kapı şekli belirdi. Ayrılmış olman özgürlüğün, ev hanımı enerjin bereketli. Çiçek, umudu simgeliyor. Nazar için tuzlu su ritüeli yap. Yeni sosyal bağlar ve içsel huzur kapıda. Kendine güven, güzel günler seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Ayrılmış",
+    "is_durumu": "Çalışmıyor",
+    "fal_metni": "Hoş geldin! Kurşunda yol ve yıldız figürü gördüm. Ayrılmış olman yeni başlangıçlar, çalışmıyor olman özgürlük sunuyor. Yıldız, umudu müjdeliyor. Nazar için mavi boncuk tak. Yeni kapılar açılacak, sosyal hayatta parlayacaksın. Sabırlı ol, yolun aydınlık!"
+  },
+  {
+    "iliski_durumu": "Ayrılmış",
+    "is_durumu": "İş arıyor",
+    "fal_metni": "Merhaba! Kurşunda anahtar ve dalga şekli belirdi. Ayrılmış olman gücün, iş arayışın umutlu. Anahtar, yeni bir iş kapısını açacak. Nazar için naber yak. Cesaretinle fırsatlar seni bulacak, adımlarını sağlam at, başarı ve huzur kapıda!"
+  },
+  {
+    "iliski_durumu": "Ayrılmış",
+    "is_durumu": "Öğrenci",
+    "fal_metni": "Hoş geldin! Kurşunda kitap ve çiçek figürü gördüm. Ayrılmış olman yeniden doğuş, öğrenci olman bilginle parlıyor. Çiçek, yenilenmeyi müjdeliyor. Nazar için gül suyu serp. Derslerde ve sosyal hayatta yeni kapılar açılacak. Kendine inan, parlak günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Ayrılmış",
+    "is_durumu": "Akademisyen",
+    "fal_metni": "Merhaba! Kurşunda ağaç ve yıldız şekli belirdi. Ayrılmış olman özgürlüğün, akademisyen kimliğin bilgelik katıyor. Yıldız, işte parlayışı müjdeliyor. Nazar için nabar yak. Yeni projeler ve sosyal hayatta yenilenme kapıda. Kendine güven, bilginle yolun parlak!"
+  },
+  {
+    "iliski_durumu": "Ayrılmış",
+    "is_durumu": "Kendi işini yapıyor",
+    "fal_metni": "Hoş geldin! Kurşunda gemi ve çiçek figürü gördüm. Ayrılmış olman gücün, kendi işini yapman cesaretin. Gemi, yeni maceraları simgeliyor. Nazar için tuzlu su ritüeli yap. İşinde bereket ve sosyal çevrende umut kapıda. Kalbinle ilerle, başarı seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Ayrılmış",
+    "is_durumu": "Kamu sektörü",
+    "fal_metni": "Merhaba! Kurşunda kale ve kuş şekli belirdi. Kamu sektöründeki istikrarın, ayrılmış olmanla özgürlüğün parlıyor. Kuş, yeni başlangıçları müjdeliyor. Nazar için mavi boncuk tak. İşte sorumluluklar ve içsel huzur kapıda. Cesur ol, güzel günler seni bekliyor!"
+  },
+  {
+    "iliski_durumu": "Ayrılmış",
+    "is_durumu": "Özel sektör",
+    "fal_metni": "Hoş geldin! Kurşunda dalga ve yıldız figürü gördüm. Ayrılmış olman özgürlüğün, özel sektördeki enerjin parlıyor. Yıldız, başarıyı simgeliyor. Nazar için adaçayı yak. İş ve sosyal hayatta yeni kapılar açılacak. Kendine inan, parlak günler seni çağırıyor!"
+  },
+  {
+    "iliski_durumu": "Ayrılmış",
+    "is_durumu": "Emekli",
+    "fal_metni": "Merhaba! Kurşunda bahçe ve kapı şekli belirdi. Emekliliğin huzuru, ayrılmış olmanla özgürlüğün birleşiyor. Kapı, yeni deneyimleri müjdeliyor. Nazar için gül suyu serp. Hobiler ve sosyal bağlarda yenilenme kapıda. Hayatın tadını çıkar, sürprizler yakın!"
+  }
+]

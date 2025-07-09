@@ -76,6 +76,7 @@ flutter:
   assets:
     - assets/config/  
     - assets/tarot/
+    - assets/kursun/kursun_fali_yorumlari.json
     - assets/tarot_cards.json
     - assets/videos/kursun_dokme_ani.mp4
     
