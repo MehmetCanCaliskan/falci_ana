@@ -1,13 +1,15 @@
-import 'dart:async'; // Timer için
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'coin_service.dart';
 import 'screens/burclar.dart';
 import 'screens/watch_ad_page.dart';
-import 'screens/play_game_page.dart'; // import et
-import 'screens/kahve_fali.dart'; // Kahve Falı ekranını import ettik
+import 'screens/play_game_page.dart';
+import 'screens/kahve_fali.dart';
 import 'screens/fallarim.dart';
 import 'screens/fan_tarot_picker.dart';
 import 'screens/kursun_dokme.dart';
+import 'screens/oyunlar_menusu.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -19,19 +21,17 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _coins = 20;
   int _selectedIndex = 0;
-  String _infoMessage = '';  // Bilgilendirme mesajı
-  int _countdown = 0;  // Geri sayım
-  late Timer _timer;  // Timer nesnesi
-  bool _isFortuneStarted = false;  // Fala bakma işlemi başladı mı?
+  String _infoMessage = '';
+  int _countdown = 0;
+  late Timer _timer;
+  bool _isFortuneStarted = false;
 
   final List<Map<String, dynamic>> _fortunes = [
-    {'title': 'Kahve Falı', 'icon': Icons.coffee},
-    {'title': 'Tarot Falı', 'icon': Icons.auto_awesome},
-    {'title': 'El Falı', 'icon': Icons.pan_tool},
-    {'title': 'Katina Falı', 'icon': Icons.star},
-    {'title': 'Kurşun Dökme', 'icon': Icons.water_drop},
-    {'title': 'Melek Kartları', 'icon': Icons.card_giftcard},
-  ];
+  {'title': 'Kahve Falı', 'image': 'assets/icons/coffee.png'},
+  {'title': 'Tarot Falı', 'image': 'assets/icons/tarot.png'},
+  {'title': 'Kurşun Dökme', 'image': 'assets/icons/kursun.png'},
+  {'title': 'Melek Kartları', 'image': 'assets/icons/melek.png'},
+];
 
   @override
   void initState() {
@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
   Future<void> _loadMessages() async {
     setState(() {
       _infoMessage = "Kahve falınız çıkmasına 14 dakika kaldı!";
-      _countdown = 30; // Geçici olarak 30 saniyeye indirdik
+      _countdown = 30;
     });
     _startCountdown();
   }
@@ -100,37 +100,40 @@ class _HomePageState extends State<HomePage> {
           const SnackBar(content: Text('Yeterli jetonunuz yok!')),
         );
       }
-
     } else if (title == 'Tarot Falı') {
       Navigator.push(
         context,
         MaterialPageRoute(builder: (_) => const FanTarotPickerPage()),
       );
     } else if (title == 'Kurşun Dökme') {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (_) => const KursunDokmeScreen()),
-        );
-      }
-
-    // Diğer fallar için buraya else if ekleyebilirsin
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (_) => const KursunDokmeScreen()),
+      );
+    }
   }
 
+  Widget _buildFortuneCard(String title, String imagePath) => Card(
+    elevation: 2,
+    child: InkWell(
+      onTap: () => _onFortuneSelected(title),
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          final iconSize = constraints.maxWidth * 0.7; // %70 boyut
 
-  Widget _buildFortuneCard(String title, IconData icon) => Card(
-        elevation: 2,
-        child: InkWell(
-          onTap: () => _onFortuneSelected(title),
-          child: Column(
+          return Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(icon, size: 36),
+              Image.asset(imagePath, width: iconSize, height: iconSize),
               const SizedBox(height: 8),
               Text(title),
             ],
-          ),
-        ),
-      );
+          );
+        },
+      ),
+    ),
+  );
+
 
   Widget _buildBottomNavigationBar() => BottomNavigationBar(
         currentIndex: _selectedIndex,
@@ -238,16 +241,36 @@ class _HomePageState extends State<HomePage> {
             Flexible(
               child: GridView.count(
                 padding: const EdgeInsets.all(16),
-                crossAxisCount: 3,
+                crossAxisCount: 2,
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,
                 children: _fortunes
-                    .map((f) => _buildFortuneCard(f['title'], f['icon']))
+                    .map((f) => _buildFortuneCard(f['title'], f['image']))
                     .toList(),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(bottom: 16),
+              child: ElevatedButton.icon(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => const OyunlarMenusuPage()),
+                  );
+                },
+                icon: const Icon(Icons.videogame_asset),
+                label: const Text("🎮 Oyna ve Jeton Kazan"),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.purple,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                ),
               ),
             ),
           ],
         ),
+
         bottomNavigationBar: _buildBottomNavigationBar(),
       );
 }
